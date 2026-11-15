@@ -1,0 +1,2269 @@
+[
+ {
+  "problem_id": "p02263",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 15,
+  "dau_vao": {
+   "sample": 2,
+   "extra": 13,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 100,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 15,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 2,
+   "sample_tong": 2,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s026917291",
+   "cac_lan_thu": [
+    {
+     "submission": "s026917291",
+     "judge_khop": "15/15",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 232,
+   "MISMATCH": 1060,
+   "RE": 88
+  },
+  "WA_danh_gia": 92,
+  "nhom_hanh_vi_WA": 50,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 2,
+    "phat_hien_MISMATCH": 63,
+    "phat_hien_MISMATCH_hoac_RE": 63,
+    "ty_le": 0.685,
+    "nhom_hanh_vi_phat_hien": 33,
+    "ty_le_nhom": 0.66
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 15,
+    "phat_hien_MISMATCH": 91,
+    "phat_hien_MISMATCH_hoac_RE": 91,
+    "ty_le": 0.989,
+    "nhom_hanh_vi_phat_hien": 49,
+    "ty_le_nhom": 0.98
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 102,
+   "WA_trung_ma": 10,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 112.7
+ },
+ {
+  "problem_id": "p02917",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 31,
+  "dau_vao": {
+   "sample": 3,
+   "extra": 12,
+   "junit_khong_trich_duoc": 0,
+   "ngoai_rang_buoc": 1,
+   "co_validator": true
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 100,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 15,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 3,
+   "sample_tong": 3,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s393222326",
+   "cac_lan_thu": [
+    {
+     "submission": "s103450324",
+     "judge_khop": "0/15",
+     "ghi_chu": "lệch ở đầu vào [0, 1, 2, 3, 4] (JVM dừng sớm hoặc trạng thái static giữa các lần gọi)"
+    },
+    {
+     "submission": "s393222326",
+     "judge_khop": "15/15",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 581,
+   "MISMATCH": 1009
+  },
+  "WA_danh_gia": 106,
+  "nhom_hanh_vi_WA": 54,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 3,
+    "phat_hien_MISMATCH": 52,
+    "phat_hien_MISMATCH_hoac_RE": 52,
+    "ty_le": 0.491,
+    "nhom_hanh_vi_phat_hien": 35,
+    "ty_le_nhom": 0.648
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 15,
+    "phat_hien_MISMATCH": 106,
+    "phat_hien_MISMATCH_hoac_RE": 106,
+    "ty_le": 1.0,
+    "nhom_hanh_vi_phat_hien": 54,
+    "ty_le_nhom": 1.0
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 110,
+   "WA_trung_ma": 4,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 131.0
+ },
+ {
+  "problem_id": "p03378",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 16,
+  "dau_vao": {
+   "sample": 3,
+   "extra": 5,
+   "junit_khong_trich_duoc": 0,
+   "ngoai_rang_buoc": 8,
+   "co_validator": true
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 99,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 8,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 3,
+   "sample_tong": 3,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 18,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 0.95,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 18,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s449463532",
+   "cac_lan_thu": [
+    {
+     "submission": "s280915421",
+     "judge_khop": "1/8",
+     "ghi_chu": "lệch ở đầu vào [1, 2, 3, 4, 5] (JVM dừng sớm hoặc trạng thái static giữa các lần gọi)"
+    },
+    {
+     "submission": "s195316323",
+     "judge_khop": "1/8",
+     "ghi_chu": "lệch ở đầu vào [1, 2, 3, 4, 5] (JVM dừng sớm hoặc trạng thái static giữa các lần gọi)"
+    },
+    {
+     "submission": "s449463532",
+     "judge_khop": "8/8",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MISMATCH": 118,
+   "MATCH": 261,
+   "RE": 5
+  },
+  "WA_danh_gia": 48,
+  "nhom_hanh_vi_WA": 25,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 3,
+    "phat_hien_MISMATCH": 14,
+    "phat_hien_MISMATCH_hoac_RE": 14,
+    "ty_le": 0.292,
+    "nhom_hanh_vi_phat_hien": 8,
+    "ty_le_nhom": 0.32
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 8,
+    "phat_hien_MISMATCH": 45,
+    "phat_hien_MISMATCH_hoac_RE": 45,
+    "ty_le": 0.938,
+    "nhom_hanh_vi_phat_hien": 24,
+    "ty_le_nhom": 0.96
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 50,
+   "AC_trung_ma": 1,
+   "WA_trung_ma": 2,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 42.0
+ },
+ {
+  "problem_id": "p03416",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 4,
+  "dau_vao": {
+   "sample": 2,
+   "extra": 14,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 100,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 16,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 2,
+   "sample_tong": 2,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 15,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s807773336",
+   "cac_lan_thu": [
+    {
+     "submission": "s807773336",
+     "judge_khop": "16/16",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 723,
+   "MISMATCH": 559,
+   "RE": 3,
+   "TLE": 11
+  },
+  "WA_danh_gia": 81,
+  "nhom_hanh_vi_WA": 28,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 2,
+    "phat_hien_MISMATCH": 21,
+    "phat_hien_MISMATCH_hoac_RE": 21,
+    "ty_le": 0.259,
+    "nhom_hanh_vi_phat_hien": 15,
+    "ty_le_nhom": 0.536
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 16,
+    "phat_hien_MISMATCH": 80,
+    "phat_hien_MISMATCH_hoac_RE": 80,
+    "ty_le": 0.988,
+    "nhom_hanh_vi_phat_hien": 27,
+    "ty_le_nhom": 0.964
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 85,
+   "WA_trung_ma": 4,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 150.3
+ },
+ {
+  "problem_id": "p03813",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 0,
+  "dau_vao": {
+   "sample": 2,
+   "extra": 13,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 88,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 15,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 2,
+   "sample_tong": 2,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s925387741",
+   "cac_lan_thu": [
+    {
+     "submission": "s925387741",
+     "judge_khop": "15/15",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MISMATCH": 298,
+   "MATCH": 197
+  },
+  "WA_danh_gia": 33,
+  "nhom_hanh_vi_WA": 10,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 2,
+    "phat_hien_MISMATCH": 21,
+    "phat_hien_MISMATCH_hoac_RE": 21,
+    "ty_le": 0.636,
+    "nhom_hanh_vi_phat_hien": 8,
+    "ty_le_nhom": 0.8
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 15,
+    "phat_hien_MISMATCH": 33,
+    "phat_hien_MISMATCH_hoac_RE": 33,
+    "ty_le": 1.0,
+    "nhom_hanh_vi_phat_hien": 10,
+    "ty_le_nhom": 1.0
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 34,
+   "AC_trung_ma": 12,
+   "WA_trung_ma": 1,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 57.4
+ },
+ {
+  "problem_id": "p01137",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 8,
+  "dau_vao": {
+   "sample": 1,
+   "extra": 13,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 74,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 14,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 1,
+   "sample_tong": 1,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s864796692",
+   "cac_lan_thu": [
+    {
+     "submission": "s864796692",
+     "judge_khop": "14/14",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 248,
+   "MISMATCH": 152,
+   "RE": 6
+  },
+  "WA_danh_gia": 29,
+  "nhom_hanh_vi_WA": 18,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 1,
+    "phat_hien_MISMATCH": 18,
+    "phat_hien_MISMATCH_hoac_RE": 18,
+    "ty_le": 0.621,
+    "nhom_hanh_vi_phat_hien": 11,
+    "ty_le_nhom": 0.611
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 14,
+    "phat_hien_MISMATCH": 28,
+    "phat_hien_MISMATCH_hoac_RE": 28,
+    "ty_le": 0.966,
+    "nhom_hanh_vi_phat_hien": 17,
+    "ty_le_nhom": 0.944
+   }
+  },
+  "dem": {
+   "AC_tong": 76,
+   "WA_tong": 32,
+   "AC_trung_ma": 2,
+   "WA_trung_ma": 3,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 49.0
+ },
+ {
+  "problem_id": "p02699",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 2,
+  "dau_vao": {
+   "sample": 3,
+   "extra": 14,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 94,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 17,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 3,
+   "sample_tong": 3,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 15,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 16,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s547172807",
+   "cac_lan_thu": [
+    {
+     "submission": "s547172807",
+     "judge_khop": "17/17",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 1016,
+   "MISMATCH": 820
+  },
+  "WA_danh_gia": 108,
+  "nhom_hanh_vi_WA": 27,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 3,
+    "phat_hien_MISMATCH": 85,
+    "phat_hien_MISMATCH_hoac_RE": 85,
+    "ty_le": 0.787,
+    "nhom_hanh_vi_phat_hien": 26,
+    "ty_le_nhom": 0.963
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 17,
+    "phat_hien_MISMATCH": 108,
+    "phat_hien_MISMATCH_hoac_RE": 108,
+    "ty_le": 1.0,
+    "nhom_hanh_vi_phat_hien": 27,
+    "ty_le_nhom": 1.0
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 112,
+   "AC_trung_ma": 6,
+   "WA_trung_ma": 4,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 147.5
+ },
+ {
+  "problem_id": "p03681",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 30,
+  "dau_vao": {
+   "sample": 4,
+   "extra": 14,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 100,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 18,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 4,
+   "sample_tong": 4,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 15,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 16,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 17,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s538762146",
+   "cac_lan_thu": [
+    {
+     "submission": "s538762146",
+     "judge_khop": "18/18",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 1165,
+   "MISMATCH": 1131,
+   "TLE": 8
+  },
+  "WA_danh_gia": 128,
+  "nhom_hanh_vi_WA": 65,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 4,
+    "phat_hien_MISMATCH": 92,
+    "phat_hien_MISMATCH_hoac_RE": 92,
+    "ty_le": 0.719,
+    "nhom_hanh_vi_phat_hien": 52,
+    "ty_le_nhom": 0.8
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 18,
+    "phat_hien_MISMATCH": 128,
+    "phat_hien_MISMATCH_hoac_RE": 128,
+    "ty_le": 1.0,
+    "nhom_hanh_vi_phat_hien": 65,
+    "ty_le_nhom": 1.0
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 129,
+   "WA_trung_ma": 1,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 203.0
+ },
+ {
+  "problem_id": "p03731",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 11,
+  "dau_vao": {
+   "sample": 5,
+   "extra": 11,
+   "junit_khong_trich_duoc": 0,
+   "ngoai_rang_buoc": 1,
+   "co_validator": true
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 100,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 16,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 5,
+   "sample_tong": 5,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 15,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s360825321",
+   "cac_lan_thu": [
+    {
+     "submission": "s360825321",
+     "judge_khop": "16/16",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 502,
+   "MISMATCH": 264,
+   "TLE": 2
+  },
+  "WA_danh_gia": 48,
+  "nhom_hanh_vi_WA": 28,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 5,
+    "phat_hien_MISMATCH": 21,
+    "phat_hien_MISMATCH_hoac_RE": 21,
+    "ty_le": 0.438,
+    "nhom_hanh_vi_phat_hien": 19,
+    "ty_le_nhom": 0.679
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 16,
+    "phat_hien_MISMATCH": 48,
+    "phat_hien_MISMATCH_hoac_RE": 48,
+    "ty_le": 1.0,
+    "nhom_hanh_vi_phat_hien": 28,
+    "ty_le_nhom": 1.0
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 48,
+   "WA_cap_chay_lai_do_TLE": 1,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 83.5
+ },
+ {
+  "problem_id": "p03546",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 61,
+  "dau_vao": {
+   "sample": 3,
+   "extra": 11,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 99,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 14,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 3,
+   "sample_tong": 3,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s575130508",
+   "cac_lan_thu": [
+    {
+     "submission": "s575130508",
+     "judge_khop": "14/14",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 779,
+   "MISMATCH": 467
+  },
+  "WA_danh_gia": 89,
+  "nhom_hanh_vi_WA": 25,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 3,
+    "phat_hien_MISMATCH": 6,
+    "phat_hien_MISMATCH_hoac_RE": 6,
+    "ty_le": 0.067,
+    "nhom_hanh_vi_phat_hien": 6,
+    "ty_le_nhom": 0.24
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 14,
+    "phat_hien_MISMATCH": 88,
+    "phat_hien_MISMATCH_hoac_RE": 88,
+    "ty_le": 0.989,
+    "nhom_hanh_vi_phat_hien": 24,
+    "ty_le_nhom": 0.96
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 89,
+   "AC_trung_ma": 1,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 114.6
+ },
+ {
+  "problem_id": "p03196",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 34,
+  "dau_vao": {
+   "sample": 4,
+   "extra": 13,
+   "junit_khong_trich_duoc": 0,
+   "ngoai_rang_buoc": 1,
+   "co_validator": true
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 91,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 17,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 4,
+   "sample_tong": 4,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 15,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 16,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s703076366",
+   "cac_lan_thu": [
+    {
+     "submission": "s703076366",
+     "judge_khop": "17/17",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 1288,
+   "MISMATCH": 233,
+   "TLE": 43
+  },
+  "WA_danh_gia": 92,
+  "nhom_hanh_vi_WA": 34,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 4,
+    "phat_hien_MISMATCH": 15,
+    "phat_hien_MISMATCH_hoac_RE": 15,
+    "ty_le": 0.163,
+    "nhom_hanh_vi_phat_hien": 11,
+    "ty_le_nhom": 0.324
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 17,
+    "phat_hien_MISMATCH": 75,
+    "phat_hien_MISMATCH_hoac_RE": 75,
+    "ty_le": 0.815,
+    "nhom_hanh_vi_phat_hien": 32,
+    "ty_le_nhom": 0.941
+   }
+  },
+  "dem": {
+   "AC_tong": 94,
+   "WA_tong": 95,
+   "AC_trung_ma": 3,
+   "WA_trung_ma": 2,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 1
+  },
+  "thoi_gian_giay": 218.9
+ },
+ {
+  "problem_id": "p03351",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 30,
+  "dau_vao": {
+   "sample": 4,
+   "extra": 14,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 100,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 18,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 4,
+   "sample_tong": 4,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 13,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 14,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 15,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 16,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 17,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s006547737",
+   "cac_lan_thu": [
+    {
+     "submission": "s006547737",
+     "judge_khop": "18/18",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MISMATCH": 1520,
+   "MATCH": 2458
+  },
+  "WA_danh_gia": 221,
+  "nhom_hanh_vi_WA": 73,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 4,
+    "phat_hien_MISMATCH": 164,
+    "phat_hien_MISMATCH_hoac_RE": 164,
+    "ty_le": 0.742,
+    "nhom_hanh_vi_phat_hien": 54,
+    "ty_le_nhom": 0.74
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 18,
+    "phat_hien_MISMATCH": 209,
+    "phat_hien_MISMATCH_hoac_RE": 209,
+    "ty_le": 0.946,
+    "nhom_hanh_vi_phat_hien": 72,
+    "ty_le_nhom": 0.986
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 226,
+   "WA_trung_ma": 5,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 299.1
+ },
+ {
+  "problem_id": "p03633",
+  "special_judge_phrase": "",
+  "cap_WA_gan_trung_jaccard_0_9": 28,
+  "dau_vao": {
+   "sample": 2,
+   "extra": 11,
+   "junit_khong_trich_duoc": 0
+  },
+  "oracle": {
+   "ac_bien_dich_duoc": 99,
+   "ac_trong_nhom_oracle": 20,
+   "ac_khong_tat_dinh": 0,
+   "dau_vao_hop_le": 13,
+   "dau_vao_bi_loai": 0,
+   "sample_khop_oracle": 2,
+   "sample_tong": 2,
+   "chi_tiet": [
+    {
+     "input": 0,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 1,
+     "origin": "sample",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "khop_sample_output": true,
+     "hop_le": true
+    },
+    {
+     "input": 2,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 3,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 4,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 5,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 6,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 7,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 8,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 9,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 10,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 11,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    },
+    {
+     "input": 12,
+     "origin": "extra",
+     "ac_thanh_cong": 20,
+     "ty_le_dong_thuan": 1.0,
+     "hop_le": true
+    }
+   ]
+  },
+  "chuong_trinh_kiem_thu": {
+   "submission": "s147374154",
+   "cac_lan_thu": [
+    {
+     "submission": "s147374154",
+     "judge_khop": "13/13",
+     "ghi_chu": ""
+    }
+   ]
+  },
+  "ket_qua_chay_WA": {
+   "MATCH": 1256,
+   "MISMATCH": 569,
+   "RE": 21,
+   "TLE": 13
+  },
+  "WA_danh_gia": 143,
+  "nhom_hanh_vi_WA": 62,
+  "phat_hien": {
+   "sample": {
+    "so_dau_vao_doc_lap": 2,
+    "phat_hien_MISMATCH": 41,
+    "phat_hien_MISMATCH_hoac_RE": 61,
+    "ty_le": 0.287,
+    "nhom_hanh_vi_phat_hien": 28,
+    "ty_le_nhom": 0.452
+   },
+   "sample+extra": {
+    "so_dau_vao_doc_lap": 13,
+    "phat_hien_MISMATCH": 111,
+    "phat_hien_MISMATCH_hoac_RE": 111,
+    "ty_le": 0.776,
+    "nhom_hanh_vi_phat_hien": 59,
+    "ty_le_nhom": 0.952
+   }
+  },
+  "dem": {
+   "AC_tong": 100,
+   "WA_tong": 144,
+   "AC_trung_ma": 1,
+   "WA_trung_ma": 1,
+   "WA_cap_chay_lai_do_TLE": 0,
+   "WA_khong_tat_dinh": 0
+  },
+  "thoi_gian_giay": 171.5
+ }
+]

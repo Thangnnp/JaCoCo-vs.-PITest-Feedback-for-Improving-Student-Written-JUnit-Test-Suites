@@ -1,0 +1,21 @@
+{
+ "problem_id": "p02909",
+ "put_hien_tai": "s365098435",
+ "so_ung_vien_da_xet": 1,
+ "put_dat": "s470507275",
+ "so_dat_1_3": 0,
+ "nhat_ky": [
+  {
+   "submission": "s470507275",
+   "tham_chieu_nhanh": "6/6",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 1,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 0,
+   "mutant_song_sot_tham_chieu_diet_duoc": 1,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 0,
+   "nhanh": "5/6",
+   "mutant_song_sot": 1,
+   "mutant": "3/4",
+   "ket_qua": "ĐẠT"
+  }
+ ]
+}

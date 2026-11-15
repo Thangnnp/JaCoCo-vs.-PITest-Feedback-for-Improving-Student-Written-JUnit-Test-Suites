@@ -1,0 +1,36 @@
+{
+ "problem_id": "p00003",
+ "put": "s021864564",
+ "manifest_sha256": "69b5b0425e6723c650351b7dfa101055704943454cc9fafe98c18037b78aad5b",
+ "WA_mau_so": 288,
+ "junit_api": "/tmp/claude-0/-home-claude/6eefda8f-9fc7-5bac-84ba-138836209c57/scratchpad/lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s046986757",
+  "s285250126",
+  "s479076368",
+  "s342149020"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "cn45/ex/p00003/SampleTest.java",
+   "sha256": "1b41900349a55079a1952d3ca1ed5225253663e44cf5656a485502a039f6627f",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 1,
+   "bien_dich": "ok",
+   "so_test": 1,
+   "test_hop_le": 1,
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 1,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 1,
+   "WA_phat_hien_assertion": 158,
+   "WADR": 0.5486,
+   "WADR_giu_bat_dong": 0.5486,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 158,
+   "WADR_phu": 0.5486,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 6
+  }
+ }
+}

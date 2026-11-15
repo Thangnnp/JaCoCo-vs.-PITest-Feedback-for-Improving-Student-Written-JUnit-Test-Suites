@@ -1,0 +1,52 @@
+package codenet;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class After {
+    @Test
+    void test1() {
+        assertEquals("YES", Judge.run("3\n4 3 5"));
+    }
+
+    @Test
+    void test2() {
+        assertEquals("NO", Judge.run("3\n4 3 6"));
+    }
+
+    @Test
+    void test3() {
+        assertEquals("NO", Judge.run("3\n8 8 8"));
+    }
+
+    @Test
+    void test4() {
+        assertEquals("YES", Judge.run("3\n5 12 13"));
+    }
+
+    @Test
+    void test5() {
+        assertEquals("NO", Judge.run("3\n6 8 10"));
+    }
+
+    @Test
+    void test6() {
+        assertEquals("YES", Judge.run("3\n9 12 15"));
+    }
+
+    @Test
+    void test7() {
+        assertEquals("NO", Judge.run("3\n10 24 26"));
+    }
+
+    @Test
+    void test8() {
+        assertEquals("YES", Judge.run("3\n7 24 25"));
+    }
+
+    @Test
+    void test9() {
+        assertEquals("NO", Judge.run("3\n10 15 16"));
+    }
+}

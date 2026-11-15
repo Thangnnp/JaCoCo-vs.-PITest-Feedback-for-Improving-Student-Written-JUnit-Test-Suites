@@ -1,0 +1,197 @@
+{
+ "problem_id": "p03351",
+ "put": "s945187436",
+ "manifest_sha256": "91f85958232ec18a7bf5829d1d76029b3b72293ca556ec0e0b2a373c56aaaf65",
+ "WA_mau_so": 221,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s481588429",
+  "s936598731",
+  "s456141042",
+  "s049565558"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-1\\Before.java",
+   "sha256": "e0cab6b13bd9e65f25157e7961149b9929505f7fb031f64ce76ac9967b5db6a9",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testDirectCommunication",
+    "testIndirectCommunication",
+    "testMultiplePeopleAtSamePosition"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 124,
+   "WADR": 0.5611,
+   "WADR_giu_bat_dong": 0.5611,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 124,
+   "WADR_phu": 0.5611,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-1\\After_r2.java",
+   "sha256": "cc6ac3fe7a42607a2cb43aa9226a7902a8e79ed7130c5a17e0b78909166c3f66",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 4,
+   "bien_dich": "ok",
+   "so_test": 8,
+   "test_hop_le": 4,
+   "ten_test_hop_le": [
+    "testCaseAIsAtTheSamePositionAsBCCanCommunicateIfDIsLargeEnough",
+    "testDirectCommunication",
+    "testIndirectCommunication",
+    "testMultiplePeopleAtSamePosition"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testCaseAAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testCaseAIsAtTheSamePositionAsBAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCaseADistantFromCButABandBCCanBeCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <Yes> but was: <No>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testDirectCommunicationWhenADistantFromCButBAndCCanBeCommunicate",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 4,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 8,
+   "WA_phat_hien_assertion": 127,
+   "WADR": 0.5747,
+   "WADR_giu_bat_dong": 0.5747,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 127,
+   "WADR_phu": 0.5747,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-1\\After_r3.java",
+   "sha256": "e3e1e8bea858df6ed4c7f15fc717f33e529786c5bbf5d7c82a1ca52a09d0d826",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 4,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 4,
+   "ten_test_hop_le": [
+    "testCaseAIsAtTheSamePositionAsBCCanCommunicateIfDIsLargeEnough",
+    "testDirectCommunication",
+    "testIndirectCommunication",
+    "testMultiplePeopleAtSamePosition"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testCaseAAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testCaseAIsAtTheSamePositionAsBAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testCaseBCannotCommunicateWithACloseDistance",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCaseADistantFromCButABandBCCanBeCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <Yes> but was: <No>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testDirectCommunicationWhenADistantFromCButBAndCCanBeCommunicate",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 4,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 127,
+   "WADR": 0.5747,
+   "WADR_giu_bat_dong": 0.5747,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 127,
+   "WADR_phu": 0.5747,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-1\\After_r4.java",
+   "sha256": "c9a218340d7274ccc4b522e597fc351424c7840dac8f6921e31daa23a41e8b50",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 4,
+   "bien_dich": "ok",
+   "so_test": 10,
+   "test_hop_le": 4,
+   "ten_test_hop_le": [
+    "testCaseAIsAtTheSamePositionAsBCCanCommunicateIfDIsLargeEnough",
+    "testDirectCommunication",
+    "testIndirectCommunication",
+    "testMultiplePeopleAtSamePosition"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testCaseAAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testCaseAIsAtTheSamePositionAsBAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testCaseBCannotCommunicateWithACloseDistance",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCaseADistantFromCButABandBCCanBeCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <Yes> but was: <No>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testAAndCCanCommunicateIfDIsLargeEnough",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testDirectCommunicationWhenADistantFromCButBAndCCanBeCommunicate",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 4,
+   "dau_vao_ngoai_rang_buoc": 2,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 10,
+   "WA_phat_hien_assertion": 127,
+   "WADR": 0.5747,
+   "WADR_giu_bat_dong": 0.5747,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 127,
+   "WADR_phu": 0.5747,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  }
+ }
+}

@@ -1,0 +1,224 @@
+{
+ "problem_id": "p03633",
+ "put": "s203672004",
+ "manifest_sha256": "18e1a0e516da9cd33b6df0bb061dedf091ed47ad3a360f6a42440e83f895eed7",
+ "WA_mau_so": 143,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s280884956",
+  "s653554415",
+  "s976347161",
+  "s638824677"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-2\\Before.java",
+   "sha256": "d51835b8b64f0252e3ae2710024bb511d8eb2965f1a45ee48370b438fc1ec93a",
+   "bien_dich": "lỗi",
+   "loi": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-2\\grade\\_test_before\\src\\codenet\\Before.java:10: error: cannot find symbol\n        assertEquals(BigInteger.valueOf(6), Judge.run(\"2\\n3\"));\n                     ^\n  symbol:   variable BigInteger\n  location: class Before\nC:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-2\\grade\\_test_before\\src\\codenet\\",
+   "fail_type": "method"
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-2\\After_r2.java",
+   "sha256": "dc9c5d8428b59d10e64ad19e4a6a2c7ae8c8d18e56c17784a4a98f0dc69f880c",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 6,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "testLCM",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithLargeNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"1000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeLargeNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"-2000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeNumbers",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <-3>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZeroAndLargeNumber",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1000000000000000000>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 10,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-2\\After_r3.java",
+   "sha256": "a834cb179aaecbe9911369b644ea5b6ca07126e4e3355110f38821f83ab96a46",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 10,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "testLCM",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithLargeNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"1000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeAndPositiveNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"-2000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeAndZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-1000000000000000000>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeLargeNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"-2000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeNumbers",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <-3>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithPositiveAndZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1000000000000000000>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZeroAndLargeNumber",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1000000000000000000>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZeroAndNegativeNumber",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-1000000000000000000>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 14,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-2\\After_r4.java",
+   "sha256": "c9819a7c5aefb9fc2922fe907d87bdae91f4c4bc9d281b551a5ad18de58c6fd7",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 11,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "testLCM",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithLargeNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"1000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeAndPositiveNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"-2000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeAndZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-1000000000000000000>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeLargeNumbers",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.InputMismatchException: For input string: \"-2000000000000000000\"",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeNumbers",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <-3>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithNegativeNumbersAndZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <-3>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithPositiveAndZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1000000000000000000>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZeroAndLargeNumber",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <1000000000000000000>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLCMWithZeroAndNegativeNumber",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-1000000000000000000>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 19,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ }
+}

@@ -1,0 +1,9 @@
+# Phiên bản đã dùng để chạy results/full_analysis.ipynb (Python 3.13)
+numpy==2.5.3
+scipy==1.18.1
+pandas==3.0.5
+matplotlib==3.11.2
+statsmodels==0.15.0
+nbformat==5.11.1
+nbconvert==7.17.2
+ipykernel

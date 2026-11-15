@@ -1,0 +1,27 @@
+{
+ "problem_id": "p03196",
+ "put": "s703076366",
+ "manifest_sha256": "ba67d2419027f411a85a6ec0113c88aad288189b1caac3cc0640cc7aac061374",
+ "WA_mau_so": 92,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "bo_test": {
+  "before": {
+   "file": "ex/p03196/SampleTest.java",
+   "sha256": "736ed9c7ca5fba6a42f65abbde53303a3d08a7ae85d6ab4bf308a5dd670ba565",
+   "bien_dich": "ok",
+   "so_test": 4,
+   "test_hop_le": 4,
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 4,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 4,
+   "WA_phat_hien_assertion": 15,
+   "WADR": 0.163,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 15,
+   "WADR_phu": 0.163,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 2
+  }
+ }
+}

@@ -1,0 +1,179 @@
+{
+ "problem_id": "p00003",
+ "special_judge_phrase": "",
+ "cap_WA_gan_trung_jaccard_0_9": 52,
+ "dau_vao": {
+  "sample": 1,
+  "extra": 14,
+  "junit_khong_trich_duoc": 0,
+  "ngoai_rang_buoc": 0,
+  "co_validator": true
+ },
+ "oracle": {
+  "ac_bien_dich_duoc": 96,
+  "ac_trong_nhom_oracle": 20,
+  "ac_khong_tat_dinh": 0,
+  "dau_vao_hop_le": 15,
+  "dau_vao_bi_loai": 0,
+  "sample_khop_oracle": 1,
+  "sample_tong": 1,
+  "chi_tiet": [
+   {
+    "input": 0,
+    "origin": "sample",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "khop_sample_output": true,
+    "hop_le": true
+   },
+   {
+    "input": 1,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 2,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 3,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 4,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 5,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 6,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 7,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 8,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 9,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 10,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 11,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 12,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 13,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   },
+   {
+    "input": 14,
+    "origin": "extra",
+    "ac_thanh_cong": 20,
+    "ty_le_dong_thuan": 1.0,
+    "hop_le": true
+   }
+  ]
+ },
+ "chuong_trinh_kiem_thu": {
+  "submission": "s280105306",
+  "cac_lan_thu": [
+   {
+    "submission": "s659626742",
+    "judge_khop": "1/15",
+    "ghi_chu": "lệch ở đầu vào [1, 2, 3, 4, 5] (JVM dừng sớm hoặc trạng thái static giữa các lần gọi)"
+   },
+   {
+    "submission": "s280105306",
+    "judge_khop": "15/15",
+    "ghi_chu": ""
+   }
+  ]
+ },
+ "ket_qua_chay_WA": {
+  "MISMATCH": 2896,
+  "MATCH": 1366,
+  "RE": 58
+ },
+ "WA_danh_gia": 288,
+ "nhom_hanh_vi_WA": 82,
+ "phat_hien": {
+  "sample": {
+   "so_dau_vao_doc_lap": 1,
+   "phat_hien_MISMATCH": 163,
+   "phat_hien_MISMATCH_hoac_RE": 163,
+   "ty_le": 0.566,
+   "nhom_hanh_vi_phat_hien": 57,
+   "ty_le_nhom": 0.695
+  },
+  "sample+extra": {
+   "so_dau_vao_doc_lap": 15,
+   "phat_hien_MISMATCH": 287,
+   "phat_hien_MISMATCH_hoac_RE": 287,
+   "ty_le": 0.997,
+   "nhom_hanh_vi_phat_hien": 81,
+   "ty_le_nhom": 0.988
+  }
+ },
+ "dem": {
+  "AC_tong": 100,
+  "WA_tong": 331,
+  "AC_trung_ma": 4,
+  "WA_trung_ma": 41,
+  "WA_loi_bien_dich": 2,
+  "WA_cap_chay_lai_do_TLE": 0,
+  "WA_khong_tat_dinh": 0
+ },
+ "thoi_gian_giay": 226.7
+}

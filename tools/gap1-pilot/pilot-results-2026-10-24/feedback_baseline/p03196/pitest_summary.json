@@ -1,0 +1,15 @@
+{
+ "problem_id": "p03196",
+ "put": "s703076366",
+ "tool": "pitest",
+ "test": "ex/p03196/SampleTest.java",
+ "mutants_total": 274,
+ "mutants_killed": 46,
+ "mutation_score": 0.1679,
+ "trang_thai": {
+  "NO_COVERAGE": 227,
+  "KILLED": 46,
+  "SURVIVED": 1
+ },
+ "mutant_song_sot_hoac_khong_phu": 228
+}

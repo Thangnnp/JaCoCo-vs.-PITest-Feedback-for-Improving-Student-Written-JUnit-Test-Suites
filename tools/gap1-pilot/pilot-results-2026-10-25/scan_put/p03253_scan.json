@@ -1,0 +1,33 @@
+{
+ "problem_id": "p03253",
+ "put_hien_tai": "s693519577",
+ "so_ung_vien_da_xet": 2,
+ "put_dat": "s490019423",
+ "so_dat_1_3": 0,
+ "nhat_ky": [
+  {
+   "submission": "s320342808",
+   "tham_chieu_nhanh": "19/36",
+   "nhanh_bao_cao_dat_duoc": 0,
+   "nhanh_bao_cao_khong_dat_duoc": 17,
+   "mutant_song_sot_diet_duoc": 0,
+   "mutant_song_sot_khong_diet_duoc": 18,
+   "nhanh": "19/36",
+   "mutant_song_sot": 28,
+   "mutant": "31/87",
+   "ket_qua": "nhánh JaCoCo báo đều không đạt được bằng đầu vào hợp lệ"
+  },
+  {
+   "submission": "s490019423",
+   "tham_chieu_nhanh": "47/62",
+   "nhanh_bao_cao_dat_duoc": 1,
+   "nhanh_bao_cao_khong_dat_duoc": 15,
+   "mutant_song_sot_diet_duoc": 2,
+   "mutant_song_sot_khong_diet_duoc": 5,
+   "nhanh": "46/62",
+   "mutant_song_sot": 9,
+   "mutant": "79/91",
+   "ket_qua": "ĐẠT"
+  }
+ ]
+}

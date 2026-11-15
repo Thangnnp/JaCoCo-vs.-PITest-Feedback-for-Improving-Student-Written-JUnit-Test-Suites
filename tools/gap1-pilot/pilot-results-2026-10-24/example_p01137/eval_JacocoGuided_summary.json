@@ -1,0 +1,47 @@
+{
+ "problem_id": "p01137",
+ "put": "s864796692",
+ "manifest_sha256": "48d8c3d67739a2ea7ce5a308af3acf835e9493c9a81c0d98941526d2387265c9",
+ "WA_mau_so": 29,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "bo_test": {
+  "before": {
+   "file": "ex/p01137/SampleTest.java",
+   "sha256": "c88c7ed2480ed6286adc7f70fe1429abeda4d870b9fbfd0d187874dd61052b0e",
+   "bien_dich": "ok",
+   "so_test": 1,
+   "test_hop_le": 1,
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 1,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 1,
+   "WA_phat_hien_assertion": 18,
+   "WADR": 0.6207,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 18,
+   "WADR_phu": 0.6207,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after": {
+   "file": "ex/p01137/JacocoGuidedTest.java",
+   "sha256": "17e73fa99b06c1ed84d0dadf7f0fc33ab7a7161b26820e7e32a493e6f5648f07",
+   "bien_dich": "ok",
+   "so_test": 5,
+   "test_hop_le": 5,
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 5,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 5,
+   "WA_phat_hien_assertion": 27,
+   "WADR": 0.931,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 27,
+   "WADR_phu": 0.931,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ },
+ "delta_WADR": 0.3103,
+ "delta_WADR_phu": 0.3103,
+ "cham_tran_sau_phan_hoi_0_95": false
+}

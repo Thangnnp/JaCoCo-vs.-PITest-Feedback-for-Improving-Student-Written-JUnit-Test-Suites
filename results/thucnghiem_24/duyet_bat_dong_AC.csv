@@ -1,0 +1,14 @@
+ma,pid,test,ma_nguon_test,ac_khong_pass,nguoi_duyet_1,nguoi_duyet_2,nguoi_quyet,quyet_dinh
+BD1,p03253,testCarriageReturnInput,"@Test
+    void testCarriageReturnInput() {
+        assertEquals(""4"", Judge.run(""2\r6""));
+    }",s133913586:ERROR,,,,
+BD2,p03253,testLeadingWhitespace,"@Test
+    void testLeadingWhitespace() {
+        // Trigger ""while (isSpaceChar(b))"" (line 89)
+        assertEquals(""4"", Judge.run(""   2 6""));
+    }",s133913586:ERROR,,,,
+BD3,p03253,testWhitespaceInput,"@Test
+    void testWhitespaceInput() {
+        assertEquals(""4"", Judge.run(""2\t6\n""));
+    }",s133913586:ERROR,,,,

@@ -1,0 +1,12 @@
+{
+ "problem_id": "p03196",
+ "put": "s703076366",
+ "tool": "jacoco",
+ "test": "ex/p03196/SampleTest.java",
+ "branch_covered": 25,
+ "branch_total": 122,
+ "branch_coverage": 0.2049,
+ "dong_con_nhanh_chua_phu": 44,
+ "junit_tests_successful": 4,
+ "junit_tests_failed": 0
+}

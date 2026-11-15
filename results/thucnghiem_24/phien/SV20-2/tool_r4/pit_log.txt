@@ -1,0 +1,36 @@
+/-\|/-\|/
+10:16:36?PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+10:16:36?PM PIT >> INFO : Created 2 mutation test units in pre scan
+10:16:37?PM PIT >> INFO : Sending 1 test classes to minion
+10:16:37?PM PIT >> INFO : Sent tests to minion
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test10()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test11()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test12()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test4()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test5()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test6()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test7()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test8()]] did not pass without mutation.
+10:16:38?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test9()]] did not pass without mutation.
+10:16:38?PM PIT >> INFO : Calculated coverage in 1 seconds.
+10:16:38?PM PIT >> SEVERE : Tests failing without mutation: 
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test10()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test11()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test12()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test4()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test5()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test6()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test7()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test8()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test9()]]
+Exception in thread "main" org.pitest.help.PitHelpError: 9 tests did not pass without mutation when calculating line coverage. Mutation testing requires a green suite.
+See https://pitest.org for more details.
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.verifyBuildSuitableForMutationTesting(DefaultCoverageGenerator.java:127)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:109)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:53)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runAnalysis(MutationCoverage.java:150)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runReport(MutationCoverage.java:137)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:137)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:64)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.runReport(MutationCoverageReport.java:98)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.main(MutationCoverageReport.java:45)

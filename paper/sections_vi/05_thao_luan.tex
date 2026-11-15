@@ -1,0 +1,35 @@
+\section{Thảo luận}
+\label{sec:discussion}
+
+\subsection{Vì sao hai loại phản hồi không khác nhau}
+Xem kỹ 20 phiên không cải thiện ($\Delta\mathrm{WADR} = 0$; 9 phiên J, 11 phiên P) cho thấy điểm nghẽn có thể nằm ở việc viết test hợp lệ, không phải ở việc chọn chỗ cần test.
+Ở 17/20 phiên này, bộ After không có đầu vào hợp lệ nào ngoài các đầu vào đã có trong bộ Before; ở 3 phiên còn lại, có thêm đầu vào hợp lệ nhưng không bắt thêm bài WA nào.
+Ở $T = 20$, chỉ 41\% test ở điều kiện J và 43\% ở điều kiện P là hợp lệ.
+Trong 249 test không hợp lệ, 132 test (53\%) fail trên chương trình đúng vì expected sai, 81 test (33\%) ném ngoại lệ trên chương trình đúng, thường do đầu vào sai định dạng, 34 test (14\%) dùng đầu vào ngoài ràng buộc của đề, và 2 test quá giờ.
+Cả hai loại báo cáo chỉ ra \emph{chỗ} cần thêm test nhưng không cho biết output đúng; nếu phần lớn test mới hỏng ở bước này, loại báo cáo khó tạo ra khác biệt.
+
+Mẫu hình thứ hai chỉ có ở PITest.
+Với cấu hình mặc định, PITest không chạy khi có bất kỳ test nào fail trên chương trình được kiểm thử, nên ở 58/96 lần chạy, người tham gia điều kiện P nhận thông báo lỗi thay vì báo cáo mutant, trong khi JaCoCo lần nào cũng có báo cáo.
+Vì expected sai là lỗi thường gặp nhất, cùng một điểm yếu vừa hạn chế cả hai điều kiện vừa làm mất phản hồi ở điều kiện P.
+Trong một so sánh thăm dò (exploratory), các phiên P nhận được ít nhất một báo cáo PITest tăng nhiều hơn ($\Delta$WADR trung bình 0,173; 11 phiên) so với các phiên P không nhận được báo cáo nào (0,066; 11 phiên), nhưng ước lượng ghép cặp trên 11 người đó vẫn có khoảng tin cậy rộng quanh 0 ($\hat{\theta} = -0,020$, KTC 95\% $[-0,212; 0,180]$).
+Thời gian chạy công cụ khó là nguyên nhân: một lần chạy trung bình mất 6,9~giây với JaCoCo và 7,2~giây với PITest, rất nhỏ so với ngân sách 20 phút.
+
+\subsection{So sánh với các nghiên cứu trước}
+Alonge~\cite{alonge2025} báo phản hồi đột biến tốt hơn phản hồi nhánh một chút, khoảng 0,05 về mức tăng tỉ lệ mutant khái niệm bị bắt, với 10 sinh viên Python trong thiết kế giữa hai nhóm.
+Khoảng tin cậy của nhóm chứa các chênh lệch cỡ đó theo cả hai chiều, nên hai kết quả không mâu thuẫn; tuy vậy không thể so trực tiếp con số, vì Alonge đo khả năng chuyển giao trên mutant khái niệm do người thiết kế tạo, sau khi đã bỏ phản hồi, còn nghiên cứu này đo trên bài WA thật được giữ kín, khi phản hồi đang được dùng.
+Việc thường xuyên không có báo cáo PITest dùng được phù hợp với Mansur et al.~\cite{mansur2026}, nghiên cứu báo rằng phản hồi gốc của PIT chưa đáp ứng nhu cầu sinh viên, và với Shin và Kazerouni~\cite{shin2024}, nghiên cứu thấy phản hồi đột biến có thể gây quá tải và khiến sinh viên quay về chiến lược yếu hơn.
+Các nghiên cứu trong kỹ nghệ phần mềm thấy độ phủ và điểm đột biến chỉ tương quan yếu với việc phát hiện lỗi thật khi kiểm soát kích thước bộ test~\cite{inozemtseva2014,papadakis2018}; trong dữ liệu này, hiệu ứng điều kiện cũng gần 0 sau khi kiểm soát số đầu vào độc lập ($-0,028$, mục~\ref{sec:results}).
+
+\subsection{Hàm ý}
+Kết quả gợi ý rằng với bài thực hành ngắn trên chương trình nhỏ, giảng viên không nên kỳ vọng hai loại báo cáo khác nhau nhiều về số bài nộp sai thật mà test bổ sung bắt được.
+Giảng viên dùng PITest cần bảo đảm sinh viên dùng được output của công cụ, ví dụ cho biết test nào fail trên chương trình đúng trước khi chạy phân tích đột biến; nếu không, nhiều sinh viên sẽ không nhận được báo cáo mutant nào.
+Hướng dẫn sinh viên kiểm tra expected với đề bài có thể quan trọng hơn việc chọn loại báo cáo.
+Với người nghiên cứu, nên báo tỉ lệ lần chạy mà mỗi công cụ thực sự cho phản hồi, vì kết quả âm tính có thể đến từ việc thiếu phản hồi chứ không phải do phản hồi không giúp ích.
+
+\subsection{Kết quả bất ngờ}
+Nhóm không dự đoán PITest dừng vì test fail ở phần lớn lần chạy; protocol giả định mọi phiên đều nhận được báo cáo có nội dung (mục~3).
+Điểm lệch này được báo ở mục~\ref{sec:results} và trong \texttt{notes.md}.
+
+\subsection{Bài học khi chạy thực nghiệm}
+Trong quá trình chạy, nhóm không đạt được cỡ mẫu 48 theo kế hoạch trong thời gian cho phép, nên nghiên cứu được trình bày là thăm dò (exploratory) với 24 người, đúng như protocol cho phép.
+Bộ chấm, các manifest đã khoá và quy tắc phân tích chốt trước giúp chạy lại toàn bộ phân tích từ các file phiên đã lưu; mọi kiểm tra dữ liệu phiên so với lịch và manifest đều đạt.

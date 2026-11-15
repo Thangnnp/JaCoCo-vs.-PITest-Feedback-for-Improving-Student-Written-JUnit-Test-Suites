@@ -1,0 +1,82 @@
+package codenet;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class After {
+    @Test
+    public void testCase1() {
+        assertEquals("YES", Judge.run("3 4 5"));
+    }
+
+    @Test
+    public void testCase2() {
+        assertEquals("NO", Judge.run("4 3 6"));
+    }
+    
+    @Test
+    public void testCase3() {
+        assertEquals("NO", Judge.run("8 8 8"));
+    }
+    
+    @Test
+    public void testCase4() {
+        assertEquals("YES", Judge.run("5 12 13"));
+    }
+
+    @Test
+    public void testCase5() {
+        assertEquals("NO", Judge.run("5 13 12"));
+    }
+    
+    @Test
+    public void testCase6() {
+        assertEquals("NO", Judge.run("8 9 10"));
+    }
+    
+    @Test
+    public void testCase7() {
+        assertEquals("YES", Judge.run("7 24 25"));
+    }
+
+    @Test
+    public void testCase8() {
+        assertEquals("NO", Judge.run("7 24 26"));
+    }
+    
+    @Test
+    public void testCase9() {
+        assertEquals("NO", Judge.run("10 24 26"));
+    }
+    
+    @Test
+    public void testCase10() {
+        assertEquals("YES", Judge.run("6 8 10"));
+    }
+
+    @Test
+    public void testCase11() {
+        assertEquals("NO", Judge.run("6 8 9"));
+    }
+    
+    @Test
+    public void testCase12() {
+        assertEquals("NO", Judge.run("5 5 7"));
+    }
+    
+    @Test
+    public void testCase13() {
+        assertEquals("YES", Judge.run("6 4 10"));
+    }
+
+    @Test
+    public void testCase14() {
+        assertEquals("NO", Judge.run("6 4 9"));
+    }
+    
+    @Test
+    public void testCase15() {
+        assertEquals("NO", Judge.run("7 21 28"));
+    }
+}

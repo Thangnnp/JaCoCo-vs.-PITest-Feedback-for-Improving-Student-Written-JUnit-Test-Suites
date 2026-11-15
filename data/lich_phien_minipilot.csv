@@ -1,0 +1,11 @@
+session_id,sv_id,thu_tu_phien,pid,put,tool,trinh_do
+S01,SV1,1,p03986,s263632960,jacoco,semi-senior
+S02,SV1,2,p02909,s470507275,pitest,semi-senior
+S03,SV2,1,p03986,s263632960,pitest,junior
+S04,SV2,2,p02909,s470507275,jacoco,junior
+S05,SV3,1,p02909,s470507275,jacoco,junior
+S06,SV3,2,p03986,s263632960,pitest,junior
+S07,SV4,1,p02909,s470507275,pitest,fresher
+S08,SV4,2,p03986,s263632960,jacoco,fresher
+S09,SV5,1,p03986,s263632960,jacoco,junior
+S10,SV5,2,p02909,s470507275,pitest,junior

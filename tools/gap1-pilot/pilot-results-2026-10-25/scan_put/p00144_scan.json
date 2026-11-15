@@ -1,0 +1,115 @@
+{
+ "problem_id": "p00144",
+ "put_hien_tai": "s595828784",
+ "so_ung_vien_da_xet": 14,
+ "put_dat": "s135751390",
+ "so_dat_1_3": 0,
+ "nhat_ky": [
+  {
+   "submission": "s335265928",
+   "nhanh": "20/20",
+   "mutant_song_sot": 4,
+   "mutant": "21/25",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s421963425",
+   "ket_qua": "Judge.run lệch 1/12"
+  },
+  {
+   "submission": "s834155894",
+   "nhanh": "18/18",
+   "mutant_song_sot": 1,
+   "mutant": "28/30",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s504021426",
+   "nhanh": "21/22",
+   "mutant_song_sot": 0,
+   "mutant": "32/32",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s020571941",
+   "nhanh": "20/20",
+   "mutant_song_sot": 0,
+   "mutant": "27/27",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s625778482",
+   "tham_chieu_nhanh": "22/22",
+   "nhanh_bao_cao_dat_duoc": 1,
+   "nhanh_bao_cao_khong_dat_duoc": 0,
+   "mutant_song_sot_diet_duoc": 0,
+   "mutant_song_sot_khong_diet_duoc": 3,
+   "nhanh": "21/22",
+   "mutant_song_sot": 3,
+   "mutant": "24/28",
+   "ket_qua": "mutant sống sót đều không diệt được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s020647396",
+   "nhanh": "20/20",
+   "mutant_song_sot": 1,
+   "mutant": "28/29",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s804395768",
+   "ket_qua": "có System.exit"
+  },
+  {
+   "submission": "s492503255",
+   "tham_chieu_nhanh": "20/24",
+   "nhanh_bao_cao_dat_duoc": 1,
+   "nhanh_bao_cao_khong_dat_duoc": 4,
+   "mutant_song_sot_diet_duoc": 0,
+   "mutant_song_sot_khong_diet_duoc": 2,
+   "nhanh": "19/24",
+   "mutant_song_sot": 4,
+   "mutant": "28/39",
+   "ket_qua": "mutant sống sót đều không diệt được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s940262353",
+   "ket_qua": "Judge.run lệch 5/12"
+  },
+  {
+   "submission": "s002774685",
+   "tham_chieu_nhanh": "20/22",
+   "nhanh_bao_cao_dat_duoc": 1,
+   "nhanh_bao_cao_khong_dat_duoc": 2,
+   "mutant_song_sot_diet_duoc": 0,
+   "mutant_song_sot_khong_diet_duoc": 1,
+   "nhanh": "19/22",
+   "mutant_song_sot": 2,
+   "mutant": "28/31",
+   "ket_qua": "mutant sống sót đều không diệt được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s047350138",
+   "ket_qua": "Judge.run lệch 1/12"
+  },
+  {
+   "submission": "s702945740",
+   "nhanh": "20/20",
+   "mutant_song_sot": 1,
+   "mutant": "19/20",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s135751390",
+   "tham_chieu_nhanh": "28/72",
+   "nhanh_bao_cao_dat_duoc": 1,
+   "nhanh_bao_cao_khong_dat_duoc": 44,
+   "mutant_song_sot_diet_duoc": 1,
+   "mutant_song_sot_khong_diet_duoc": 9,
+   "nhanh": "27/72",
+   "mutant_song_sot": 11,
+   "mutant": "28/110",
+   "ket_qua": "ĐẠT"
+  }
+ ]
+}

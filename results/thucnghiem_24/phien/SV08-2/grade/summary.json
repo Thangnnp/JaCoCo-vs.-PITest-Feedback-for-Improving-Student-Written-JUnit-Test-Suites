@@ -1,0 +1,243 @@
+{
+ "problem_id": "p02263",
+ "put": "s781975706",
+ "manifest_sha256": "1316187b9bbfb78541005c2a4aacae5375adaa5b621ad5ee570a6ea24adc1657",
+ "WA_mau_so": 92,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s207648246",
+  "s259589934",
+  "s802755231",
+  "s393262825"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV08-2\\Before.java",
+   "sha256": "e121c5f961780413db593a9afbc6d8bad27916c4991212d11c71df966e43e487",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testSample1",
+    "testSample2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testEdgeCase",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 63,
+   "WADR": 0.6848,
+   "WADR_giu_bat_dong": 0.6848,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 63,
+   "WADR_phu": 0.6848,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV08-2\\After_r2.java",
+   "sha256": "d2c3988b897d244471de9501194a6508ed8d08483600ba29d2c45191a3089d9e",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testSample1",
+    "testSample2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testInvalidOperand",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidOperator",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNegativeNumber",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCase",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEdgeCaseLargerNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEmptyInput",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testOperatorOrder",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 4,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 63,
+   "WADR": 0.6848,
+   "WADR_giu_bat_dong": 0.6848,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 63,
+   "WADR_phu": 0.6848,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV08-2\\After_r3.java",
+   "sha256": "a94aed2ceb7b202b8bfd78dc48c90c18706d634dd0f0a978404dc73c8d435f3b",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 12,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testMultipleOperators",
+    "testSample1",
+    "testSample2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testInvalidOperand",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidOperandValidated",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidOperator",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNegativeNumberValidated",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <true> but was: <false>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCase",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEdgeCaseLargerNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEmptyInput",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testLargeNumbers",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testNegativeNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 5,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 12,
+   "WA_phat_hien_assertion": 63,
+   "WADR": 0.6848,
+   "WADR_giu_bat_dong": 0.6848,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 63,
+   "WADR_phu": 0.6848,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV08-2\\After_r4.java",
+   "sha256": "dec957568fdcc15db5600ff99d8abe7e933e3f0bb9dcda12d60902f5e94037a8",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 11,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testMultipleOperators",
+    "testSample1",
+    "testSample2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testInvalidCharacterInput",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidNumberInput",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidOperand",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidOperator",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: Đã không ném ngoại lệ",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNegativeNumberValidated",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCase",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEdgeCaseLargerNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEmptyInput",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 3,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 11,
+   "WA_phat_hien_assertion": 63,
+   "WADR": 0.6848,
+   "WADR_giu_bat_dong": 0.6848,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 63,
+   "WADR_phu": 0.6848,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ }
+}

@@ -1,0 +1,11 @@
+{
+  "seed_csv": "Ngo Minh Tien/SLR/03_final_included.csv",
+  "all_records_csv": "Ngo Minh Tien/SLR/01_all_records.csv",
+  "screened_csv": "Ngo Minh Tien/SLR/02_after_screening_v1.csv",
+  "included_csv": "Ngo Minh Tien/SLR/03_final_included.csv",
+  "output_csv": "Ngo Minh Tien/SLR/snowballing-candidates.csv",
+  "browser_profile": "tools/acm-snowballing/.acm-browser-profile",
+  "slow_mo_ms": 50,
+  "navigation_timeout_ms": 60000,
+  "max_citation_pages": 50
+}

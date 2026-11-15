@@ -1,0 +1,72 @@
+package codenet;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+class After {
+    @Test
+    public void testSinglePalindrome() {
+        assertEquals("1", Judge.run("100 111"));
+    }
+
+    @Test
+    public void testRangeWithNoPalindromes() {
+        assertEquals("0", Judge.run("1234 5678"));
+    }
+
+    @Test
+    public void testFullRangeOfPalindromes() {
+        assertEquals("90", Judge.run("100 190"));
+    }
+
+    @Test
+    public void testEdgeCaseA() {
+        assertEquals("0", Judge.run("1000 1002"));
+    }
+
+    @Test
+    public void testEdgeCaseB() {
+        assertEquals("1", Judge.run("1000 1003"));
+    }
+
+    @Test
+    public void testLargeRange() {
+        assertEquals("8915", Judge.run("10000 20000"));
+    }
+
+    @Test
+    public void testSmallNumbers() {
+        assertEquals("0", Judge.run("10 99"));
+    }
+
+    @Test
+    public void testSingleDigitPalindromes() {
+        assertEquals("3", Judge.run("10 13"));
+    }
+
+    @Test
+    public void testEdgeCaseC() {
+        assertEquals("1", Judge.run("212 314"));
+    }
+
+    @Test
+    public void testLeadingZeroes() {
+        assertEquals("1", Judge.run("101 109"));
+    }
+
+    @Test
+    public void testRangeIncludingBAsPalindrome() {
+        assertEquals("1", Judge.run("567 678"));
+    }
+
+    @Test
+    public void testOddNumberOfDigits() {
+        assertEquals("3", Judge.run("123 456"));
+    }
+
+    @Test
+    public void testEdgeCaseD() {
+        assertEquals("0", Judge.run("9999 10000"));
+    }
+}

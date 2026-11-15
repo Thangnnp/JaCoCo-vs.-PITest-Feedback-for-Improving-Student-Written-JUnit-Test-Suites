@@ -1,0 +1,51 @@
+{
+ "thuc_nghiem": "24 người, 48 phiên, 12 bài chính (proposal §5.3, §5.6)",
+ "ngay_chay": "2026-11-10 đến 2026-11-13",
+ "dataset": {
+  "nguon": "IBM Project CodeNet (Puri et al., 2021), https://github.com/IBM/Project_CodeNet",
+  "data_raw_sha256": {
+   "codenet_pilot_subset.zip": "2cf2ff4c1b8dcea5358c1ab0ff03aad4d39d2bee21f278928276289d780695eb",
+   "codenet_pilot_subset_45.zip": "c852f84c1b0fee45f3dbb7f6c37c0ba6b2ecd428f97c033dd678d46894271510"
+  },
+  "frozen_main12_ngay_khoa": "2026-10-25",
+  "ac_check_ngay_khoa": "2026-10-28",
+  "manifest_sha256": {
+   "p02263": "1316187b9bbfb78541005c2a4aacae5375adaa5b621ad5ee570a6ea24adc1657",
+   "p03378": "8a40bd0c594de564c206b17c6fcb28d85251bd970c5a51c0266f72b1801668a6",
+   "p03416": "6c243fcafcb48f1c55d89b84e7655759b21bf46545dc94d3bfd9a55073451e84",
+   "p03681": "52a76c86f93fd743b7b0df9ef00320792f794045e048ac28c5a6efd5b68626a1",
+   "p03196": "ba67d2419027f411a85a6ec0113c88aad288189b1caac3cc0640cc7aac061374",
+   "p03351": "91f85958232ec18a7bf5829d1d76029b3b72293ca556ec0e0b2a373c56aaaf65",
+   "p03633": "18e1a0e516da9cd33b6df0bb061dedf091ed47ad3a360f6a42440e83f895eed7",
+   "p03253": "bdb29d663ecb8da614c4d93003e72feabd4e575d27ab733de077cd3656063de4",
+   "p00003": "69b5b0425e6723c650351b7dfa101055704943454cc9fafe98c18037b78aad5b",
+   "p00144": "da076a991889daf573aa1eece75e2cf8cc2cf0ae5c9d12b1d76ffb68a42cf2a7",
+   "p01125": "c9b63bfe11928c41e4b61dc398a042887ce21da2dc7d257ac22b0d07713bdf37",
+   "p03274": "83b8dca67b7bd61e6305418e8f143e7e90335fdef0bf8676bab340e7097e97e5"
+  }
+ },
+ "lich_phien": {
+  "file": "data/lich_phien_thucnghiem_24.csv",
+  "sha256": "32512d8650e558d87eaa6c58b58171f307ad66f9f4d079b99cb8713bc575ed9e",
+  "seed_gan_o": 2026,
+  "quy_tac": "ô k làm bài k và bài k+6; 12 ô đầu JaCoCo trước (§5.6)"
+ },
+ "cau_hinh": {
+  "T0_phut": 15,
+  "T_phut_phan_tich_chinh": 20,
+  "moc_do_nhay_phut": [
+   15,
+   30
+  ],
+  "K_lan_chay": 2,
+  "gioi_han_moi_test_giay": 4,
+  "alpha": 0.05,
+  "delta": 0.1,
+  "delta_do_nhay": [
+   0.05,
+   0.15
+  ],
+  "cong_cu": "JUnit 5.10.2, JaCoCo 0.8.12, PITest 1.16.1 (pitest-junit5-plugin 1.2.1), cấu hình mặc định; JDK 21"
+ },
+ "phan_tich": "results/full_analysis.ipynb; tools/gap1-pilot/compute_metric.py"
+}

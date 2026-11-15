@@ -1,0 +1,30 @@
+{
+ "problems": {
+  "p04005": {
+   "put": "s226763049",
+   "WA_danh_gia": 206,
+   "manifest_sha256": "d3e93f3946c8e851e5688958cd7af033fdda352ad93fe33676b819149b973650",
+   "reference_inputs": 17,
+   "reference_inputs_sha256": "a9f54bc367c40d1a2be43d9404a3a9f7a2f449e8d9d7f54dfe98a632503e1e55",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 61,
+   "put_wa_pilot": "s174129494",
+   "put_quet": {
+    "submission": "s226763049",
+    "tham_chieu_nhanh": "7/8",
+    "nhanh_bao_cao_tham_chieu_phu_duoc": 1,
+    "nhanh_bao_cao_chua_phu_bang_tham_chieu": 1,
+    "mutant_song_sot_tham_chieu_diet_duoc": 1,
+    "mutant_song_sot_chua_diet_bang_tham_chieu": 2,
+    "nhanh": "6/8",
+    "mutant_song_sot": 5,
+    "mutant": "8/13",
+    "ket_qua": "ĐẠT"
+   },
+   "thu_tu_chon": 26,
+   "vai_tro": "du_phong",
+   "ac_check": "ac_check/p04005.json",
+   "ac_check_sha256": "66a1f57f5f8f2c4873f114cdca6d1ada61389261cdf7938f5d40a94be7259efd"
+  }
+ },
+ "ngay_khoa": "2026-10-29"
+}

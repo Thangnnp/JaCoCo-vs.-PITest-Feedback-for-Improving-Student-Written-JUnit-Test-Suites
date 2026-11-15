@@ -1,0 +1,20 @@
+{
+ "problem_id": "p03351",
+ "put_hien_tai": "s006547737",
+ "so_ung_vien_da_xet": 1,
+ "put_dat": "s945187436",
+ "nhat_ky": [
+  {
+   "submission": "s945187436",
+   "tham_chieu_nhanh": "6/6",
+   "nhanh_bao_cao_dat_duoc": 1,
+   "nhanh_bao_cao_khong_dat_duoc": 0,
+   "mutant_song_sot_diet_duoc": 2,
+   "mutant_song_sot_khong_diet_duoc": 1,
+   "nhanh": "5/6",
+   "mutant_song_sot": 3,
+   "mutant": "7/10",
+   "ket_qua": "ĐẠT"
+  }
+ ]
+}

@@ -1,0 +1,22 @@
+\section{Phương pháp}
+\label{sec:methods}
+
+Nghiên cứu có 24 người tham gia ở ba mức kinh nghiệm (4 fresher, 15 junior, 5 semi-senior), được gán vào lịch ngẫu nhiên theo seed 2026.
+
+\subsection{Thiết kế}
+Nghiên cứu dùng thiết kế crossover. Mỗi người tham gia làm hai phiên trên hai bài khác nhau, một phiên với JaCoCo (J) và một phiên với PITest (P). Lịch cân bằng thứ tự công cụ: một nửa làm J trước, một nửa làm P trước, và mỗi tổ hợp (bài, phiên, công cụ) xuất hiện đúng một lần. Không ai làm cùng một bài với cả hai công cụ. Cỡ mẫu dự kiến là 48, tối thiểu 24. Vì chỉ có 24 người, nghiên cứu được trình bày là thăm dò (exploratory).
+
+\subsection{Dữ liệu}
+Các bài toán lấy từ IBM CodeNet~\cite{puri2021}. Một bài đủ điều kiện khi có Sample Input/Output, có đáp án duy nhất, có ít nhất 30 bài Java Accepted và 30 bài Java Wrong Answer, và trung vị mã Accepted không quá 2.000 byte (722 trên 4.053 bài đạt). Bài được lấy theo thứ tự ngẫu nhiên (seed 2026) cho đến khi đủ 12 bài, loại những bài mà bộ Sample đã phát hiện hết bài WA. Mỗi bài có một chương trình cần kiểm thử (PUT), là một bài Accepted chọn theo tiêu chí công khai, sao cho cả hai báo cáo còn ít nhất một mục mà tập đầu vào tham chiếu phủ hoặc diệt được. Tổng cộng có 1.639 bài WA dùng để đánh giá. Danh sách bài WA, tập đầu vào tham chiếu và bốn bài Accepted đối chiếu của mỗi bài được khoá bằng SHA-256 trước khi chạy.
+
+\subsection{Quy trình một phiên}
+Người tham gia đọc đề và chương trình, rồi viết bộ JUnit ban đầu (Before) trong 15 phút khi chưa có phản hồi. Sau đó họ chạy công cụ của điều kiện được phân, đọc báo cáo và bổ sung test. Mỗi phiên có bốn lần chạy công cụ; bộ test sau bổ sung (After) được lưu ở các mốc 15, 20 và 30 phút. Phân tích chính dùng mốc $T = 20$ phút, giá trị được giữ sau mini-pilot, và thời gian chạy công cụ nằm trong $T$. JaCoCo 0.8.12 và PITest 1.16.1 chạy với cấu hình mặc định, không lọc mục nào trong báo cáo.
+
+\subsection{Chấm bộ test}
+Bộ chấm biên dịch bộ test, chạy hai lần trên PUT và chạy riêng từng test. Một test hợp lệ khi pass cả hai lần, pass khi chạy riêng và chỉ dùng đầu vào trong ràng buộc đề. Test hợp lệ được chạy thêm trên bốn bài Accepted đối chiếu; test không pass trên ít nhất một bài là test bất đồng. Một bài WA bị phát hiện khi có ít nhất một test hợp lệ fail do assertion ở cả hai lần chạy. Bộ chấm được kiểm chứng trước trên một bài giả lập có kết quả biết trước (80/80 kiểm tra khớp).
+
+\subsection{Thước đo}
+WADR là tỉ lệ bài WA trong danh sách đã khoá bị bộ test phát hiện. $\Delta\mathrm{WADR} = \mathrm{WADR(After)} - \mathrm{WADR(Before)}$. Với mỗi người, $d = \Delta\mathrm{WADR}(P) - \Delta\mathrm{WADR}(J)$; $d > 0$ nghiêng về PITest. Độ phủ và điểm đột biến không làm thước đo chính vì đó là thông tin hai công cụ đưa cho người tham gia.
+
+\subsection{Phân tích}
+$H_0$: $\theta = 0$ và $H_1$: $\theta \neq 0$, trong đó $\theta$ là trung vị giả của $d$. Kiểm định chính là Wilcoxon signed-rank ghép cặp hai phía, xử lý hiệu bằng 0 theo Pratt~\cite{pratt1959}. $\theta$ được ước lượng bằng Hodges--Lehmann~\cite{hodges1963} kèm khoảng tin cậy 95\%; độ lớn hiệu ứng là rank-biserial $r$. Ngưỡng ý nghĩa thực tiễn $\delta = 0,10$ được chốt trước. Kết luận có khác biệt khi $p < 0,05$ và $|\hat{\theta}| \geq \delta$. Phiên có Before không biên dịch được giữ với $\mathrm{WADR(Before)} = 0$; phiên có After không biên dịch bị loại khỏi phân tích chính và được tính $\mathrm{WADR(After)} = 0$ trong phân tích độ nhạy. Các phân tích bổ sung (thăm dò) gồm $T = 15$ và 30 phút, mô hình hỗn hợp với điều kiện, thứ tự phiên và bài là hiệu ứng cố định và người là hiệu ứng ngẫu nhiên, hồi quy crossover $2\times2$, $\delta = 0,05$ và 0,15, và phân nhóm theo WADR ban đầu. Các quy tắc này được ghi trước khi xem kết quả.

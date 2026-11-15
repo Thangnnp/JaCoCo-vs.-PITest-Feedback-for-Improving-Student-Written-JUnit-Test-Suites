@@ -1,0 +1,34 @@
+\section{Discussion}
+\label{sec:discussion}
+
+\subsection{Why the two feedback types did not differ}
+A closer look at the 20 sessions with no gain ($\Delta$WADR = 0; 9 in J, 11 in P) suggests that the bottleneck was writing valid tests rather than choosing what to test.
+In 17 of these 20 sessions, the After suite contained no valid input beyond those already in the Before suite; in the other 3, new valid inputs were added but caught no additional WA submission.
+At T = 20, only 41\% of the tests in condition J and 43\% in condition P were valid.
+Of the 249 invalid tests, 132 (53\%) failed on the correct program because the expected output was wrong, 81 (33\%) threw an exception on the correct program, typically because the input did not follow the required format, 34 (14\%) used inputs outside the problem constraints, and 2 timed out.
+Both reports point to where a new test is needed, but neither tells the participant the correct expected output; if most new tests fail at this step, the type of report has little room to make a difference.
+
+With its default configuration, PITest refuses to run when any test fails on the program under test, so in 58 of 96 runs participants in condition P saw an error message instead of a mutation report, while JaCoCo reported in every run.
+Since a wrong expected value was the most common error, the same weakness that limited both conditions also removed the feedback in condition P.
+In an exploratory comparison, P sessions that received at least one PITest report gained more (mean $\Delta$WADR 0.173, 11 sessions) than P sessions that received none (0.066, 11 sessions), but the paired estimate for those 11 participants still had a wide interval around zero ($\hat{\theta}$ = $-$0.020, 95\% CI [$-$0.212, 0.180]).
+Tool run time is an unlikely explanation: a run took 6.9~s on average with JaCoCo and 7.2~s with PITest, which is small compared with the 20-minute budget.
+
+\subsection{Comparison with prior work}
+Alonge~\cite{alonge2025} reported a small advantage of mutation feedback over branch feedback, about 0.05 in the gain of conceptual mutants caught, with ten Python students in a between-group design.
+Our interval includes differences of that size in both directions, so the two results do not conflict. A numeric comparison is not meaningful, though, because Alonge measured transfer on designed conceptual mutants after feedback was removed, whereas we measured held-out real WA submissions while feedback was in use.
+The frequent absence of usable PITest reports is consistent with Mansur et al.~\cite{mansur2026}, who report that the unmodified PIT feedback did not meet students' needs, and with Shin and Kazerouni~\cite{shin2024}, who observed that mutation feedback can overload students and push them back to weaker strategies.
+Studies in software engineering found that coverage and mutation score correlate only weakly with real fault detection once suite size is controlled~\cite{inozemtseva2014,papadakis2018}; in our data, the condition effect also stayed close to zero after controlling for the number of independent inputs ($-$0.028, Section~\ref{sec:results}).
+
+\subsection{Implications}
+These results suggest that, for short exercises on small programs, instructors should not expect a large difference between the two reports in how many real wrong submissions the added tests catch.
+Instructors who use PITest should make sure students can act on its output, for example by showing which tests fail on the correct program before mutation analysis runs, since otherwise many students receive no mutation report at all.
+Teaching students to check expected outputs against the problem statement may matter more than the choice of report.
+For researchers, the share of runs in which each tool actually produced feedback should be reported, because a null result may come from missing feedback rather than from feedback that did not help.
+
+\subsection{Unexpected result}
+We did not anticipate that PITest would stop on failing tests in most runs; the protocol assumed that every session would receive a report with content (Section~3).
+This deviation is reported in Section~\ref{sec:results} and in \texttt{notes.md}.
+
+\subsection{Lessons from running the experiment}
+During the runs, we found that the planned sample of 48 could not be reached within the schedule, so the study is reported as exploratory with 24 participants, as the protocol allows.
+The grader, locked manifests and pre-registered analysis rules made it possible to rerun every analysis from the stored session files, and all checks of the session data against the schedule and the locked manifests passed.

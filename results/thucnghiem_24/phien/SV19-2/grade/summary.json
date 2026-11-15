@@ -1,0 +1,202 @@
+{
+ "problem_id": "p03351",
+ "put": "s945187436",
+ "manifest_sha256": "91f85958232ec18a7bf5829d1d76029b3b72293ca556ec0e0b2a373c56aaaf65",
+ "WA_mau_so": 221,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s481588429",
+  "s936598731",
+  "s456141042",
+  "s049565558"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV19-2\\Before.java",
+   "sha256": "c83095cfa9abb45b5deaca35fc053c2cbf2c75ad0836addc06015dc81c064c5f",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testAandCCanCommunicateDirectly",
+    "testAandCCanCommunicateIndirectly"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testACCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 92,
+   "WADR": 0.4163,
+   "WADR_giu_bat_dong": 0.4163,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 92,
+   "WADR_phu": 0.4163,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV19-2\\After_r2.java",
+   "sha256": "db2408f4b0e80edc2e6479525789a077fc08c88371ea69d8f2bb236460be06be",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 5,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 5,
+   "ten_test_hop_le": [
+    "testABandACanCommunicateIndirectly",
+    "testAandBCanCommunicateDirectly",
+    "testAandCCanCommunicateDirectly",
+    "testAandCCanCommunicateIndirectly",
+    "testBandCCanCommunicateDirectly"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testACCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testACannotCommunicateIndirectly",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testBAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testBCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 5,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 131,
+   "WADR": 0.5928,
+   "WADR_giu_bat_dong": 0.5928,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 131,
+   "WADR_phu": 0.5928,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV19-2\\After_r3.java",
+   "sha256": "2d7e8944ba5060aa7f3c32b465bd8dafc5bb0204b5d9185a5e9cb6fe99499be1",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 8,
+   "bien_dich": "ok",
+   "so_test": 12,
+   "test_hop_le": 8,
+   "ten_test_hop_le": [
+    "testABandACanCommunicateIndirectly",
+    "testACanCommunicateWithAandBIndirectly",
+    "testAandBCanCommunicateDirectly",
+    "testAandCCanCommunicateDirectly",
+    "testAandCCanCommunicateIndirectly",
+    "testBCanCommunicateWithAandCIndirectly",
+    "testBandCCanCommunicateDirectly",
+    "testCCanCommunicateWithAandBIndirectly"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testACCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testACannotCommunicateIndirectly",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testBAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testBCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 8,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 12,
+   "WA_phat_hien_assertion": 131,
+   "WADR": 0.5928,
+   "WADR_giu_bat_dong": 0.5928,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 131,
+   "WADR_phu": 0.5928,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 2
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV19-2\\After_r4.java",
+   "sha256": "c31070078fad1328c6d5e89b89722ea72c409ea69c1f0ca8c7c74fbd287b925e",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 9,
+   "bien_dich": "ok",
+   "so_test": 14,
+   "test_hop_le": 9,
+   "ten_test_hop_le": [
+    "testABandACanCommunicateIndirectly",
+    "testACanCommunicateWithAandBIndirectly",
+    "testAandACanCommunicateDirectly",
+    "testAandBCanCommunicateDirectly",
+    "testAandCCanCommunicateDirectly",
+    "testAandCCanCommunicateIndirectly",
+    "testBCanCommunicateWithAandCIndirectly",
+    "testBandCCanCommunicateDirectly",
+    "testCCanCommunicateWithAandBIndirectly"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testACCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testACannotCommunicateIndirectly",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testBAndCCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testBCannotCommunicate",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testBandBCanCommunicateIndirectly",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <No> but was: <Yes>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 9,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 14,
+   "WA_phat_hien_assertion": 131,
+   "WADR": 0.5928,
+   "WADR_giu_bat_dong": 0.5928,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 131,
+   "WADR_phu": 0.5928,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 2
+  }
+ }
+}

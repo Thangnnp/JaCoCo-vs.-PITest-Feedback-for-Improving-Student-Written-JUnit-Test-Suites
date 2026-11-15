@@ -1,0 +1,406 @@
+{
+ "khop": 80,
+ "tong": 80,
+ "kiem_tra": [
+  {
+   "kiem_tra": "pick_ac chọn đúng 4 bài AC độc lập",
+   "khop": true,
+   "chi_tiet": "chọn ['s_ac_last', 's_ac_nonpub', 's_ac_stream', 's_ac_thread']; loại: s_ac_sameuser (trùng tác giả với PUT hoặc bài đã chọn); s_ac_exit (có System.exit)"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh: test hợp lệ = ['t00_lienKeBang', 't01_moiSoAm', 't02_lonNhatOCuoi', 't03_motPhanTu', 't04_nChan', 't05_goiHaiLan']",
+   "khop": true,
+   "chi_tiet": "thực tế ['t00_lienKeBang', 't01_moiSoAm', 't02_lonNhatOCuoi', 't03_motPhanTu', 't04_nChan', 't05_goiHaiLan']"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh: test bị loại và lý do",
+   "khop": true,
+   "chi_tiet": "{}"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh: test bất đồng AC",
+   "khop": true,
+   "chi_tiet": "[]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_neg (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_last (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_throw1 (chính, phụ, giữ bất đồng) = KPK",
+   "khop": true,
+   "chi_tiet": "thực tế KPK [phat_hien [ERROR]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_loop (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong [TIMEOUT]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_exit (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong [EXIT]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_static (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_thread (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_noflush (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_nonpub (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S1_assertion_manh / w_tie (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu: test hợp lệ = ['y01', 'y02', 'y03']",
+   "khop": true,
+   "chi_tiet": "thực tế ['y01', 'y02', 'y03']"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu: test bị loại và lý do",
+   "khop": true,
+   "chi_tiet": "{}"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu: test bất đồng AC",
+   "khop": true,
+   "chi_tiet": "[]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_neg (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_last (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_throw1 (chính, phụ, giữ bất đồng) = KPK",
+   "khop": true,
+   "chi_tiet": "thực tế KPK [phat_hien [ERROR]]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_loop (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_exit (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong [EXIT]]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_static (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_thread (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_noflush (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_nonpub (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S2_assertion_yeu / w_tie (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai: test hợp lệ = ['e01_dung', 'e03_dung']",
+   "khop": true,
+   "chi_tiet": "thực tế ['e01_dung', 'e03_dung']"
+  },
+  {
+   "kiem_tra": "S3_expected_sai: test bị loại và lý do",
+   "khop": true,
+   "chi_tiet": "{\"e02_sai\": \"FAIL trên PUT: java.lang.AssertionError: expected: <4 1> but was: <8 2>\"}"
+  },
+  {
+   "kiem_tra": "S3_expected_sai: test bất đồng AC",
+   "khop": true,
+   "chi_tiet": "[]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_neg (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_last (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_throw1 (chính, phụ, giữ bất đồng) = KPK",
+   "khop": true,
+   "chi_tiet": "thực tế KPK [phat_hien [ERROR]]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_loop (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_exit (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong [EXIT]]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_static (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_thread (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_noflush (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_nonpub (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S3_expected_sai / w_tie (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le: test hợp lệ = ['x03_batNgoaiLe', 'x04_khongBat']",
+   "khop": true,
+   "chi_tiet": "thực tế ['x03_batNgoaiLe', 'x04_khongBat']"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le: test bị loại và lý do",
+   "khop": true,
+   "chi_tiet": "{\"x02_nemKhiHopLe\": \"FAIL trên PUT: java.lang.AssertionError: Expected java.lang.RuntimeException to be thrown, but nothing was thrown.\", \"x01_nemKhiRong\": \"dùng đầu vào ngoài ràng buộc của đề\"}"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le: test bất đồng AC",
+   "khop": true,
+   "chi_tiet": "[]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_neg (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_last (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_throw1 (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [ERROR,FAIL]]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_loop (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_exit (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong [EXIT]]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_static (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_thread (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_noflush (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_nonpub (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S4_assertThrows_ngoai_le / w_tie (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai: test hợp lệ = ['f02_flakyKhiSai', 'f03_ghiStatic']",
+   "khop": true,
+   "chi_tiet": "thực tế ['f02_flakyKhiSai', 'f03_ghiStatic']"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai: test bị loại và lý do",
+   "khop": true,
+   "chi_tiet": "{\"f01_flakyTrenPUT\": \"lúc pass lúc fail trên PUT\", \"f04_docStatic\": \"phụ thuộc thứ tự: FAIL khi chạy riêng trên PUT\"}"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai: test bất đồng AC",
+   "khop": true,
+   "chi_tiet": "[]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_neg (chính, phụ, giữ bất đồng) = UUU",
+   "khop": true,
+   "chi_tiet": "thực tế UUU [khong_on_dinh]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_last (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_throw1 (chính, phụ, giữ bất đồng) = KPK",
+   "khop": true,
+   "chi_tiet": "thực tế KPK [phat_hien [ERROR]]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_loop (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_exit (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong [EXIT]]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_static (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_thread (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_noflush (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_nonpub (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S5_flaky_ro_trang_thai / w_tie (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC: test hợp lệ = ['d02_binhThuong']",
+   "khop": true,
+   "chi_tiet": "thực tế ['d02_binhThuong']"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC: test bị loại và lý do",
+   "khop": true,
+   "chi_tiet": "{}"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC: test bất đồng AC",
+   "khop": true,
+   "chi_tiet": "[{\"test\": \"d01_trungChotChiSo\", \"ac_khong_pass\": [\"s_ac_last:FAIL\"], \"quyet_dinh\": \"chua_duyet\"}]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_neg (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_last (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_throw1 (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_loop (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_exit (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_static (chính, phụ, giữ bất đồng) = KKK",
+   "khop": true,
+   "chi_tiet": "thực tế KKK [khong]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_thread (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_noflush (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_nonpub (chính, phụ, giữ bất đồng) = PPP",
+   "khop": true,
+   "chi_tiet": "thực tế PPP [phat_hien [FAIL]]"
+  },
+  {
+   "kiem_tra": "S6_bat_dong_AC / w_tie (chính, phụ, giữ bất đồng) = KKP",
+   "khop": true,
+   "chi_tiet": "thực tế KKP [khong]"
+  },
+  {
+   "kiem_tra": "S6 với file duyệt ghi 'giu' cho d01: w_tie được tính ở thước đo chính",
+   "khop": true,
+   "chi_tiet": "phat_hien"
+  }
+ ]
+}

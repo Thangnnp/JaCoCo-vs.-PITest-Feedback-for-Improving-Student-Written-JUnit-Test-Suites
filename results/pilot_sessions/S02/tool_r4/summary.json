@@ -1,0 +1,13 @@
+{
+ "problem_id": "p02909",
+ "put": "s470507275",
+ "tool": "pitest",
+ "test": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_lan3\\pilot_sessions\\S02\\After_r3.java",
+ "mutants_total": 4,
+ "mutants_killed": 4,
+ "mutation_score": 1.0,
+ "trang_thai": {
+  "KILLED": 4
+ },
+ "mutant_song_sot_hoac_khong_phu": 0
+}

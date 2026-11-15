@@ -1,0 +1,14 @@
+\section{Các công trình liên quan}
+\label{sec:related}
+
+\subsection{Đo chất lượng bộ test của sinh viên}
+Nhiều nghiên cứu dùng độ phủ, mutant hoặc bài làm sai của sinh viên để chấm bộ test. Aaltonen et al.~\cite{aaltonen2010} thấy hầu hết sinh viên đạt điểm tối đa theo độ phủ trong khi điểm đột biến phân tán hơn. Edwards và Shams~\cite{edwards2014} và Shams~\cite{shams2015} so sánh các thước đo chất lượng bộ test, lấy lỗi thật trong bài sinh viên làm chuẩn, và thấy độ phủ không tương quan mạnh với khả năng bắt lỗi. Perretta et al.~\cite{perretta2022}, trên 2.711 bài nộp, thấy điểm đột biến tương quan mạnh với việc bắt lỗi gieo tay và khá mạnh với việc phát hiện bài sinh viên sai. Hall và Baniassad~\cite{hall2022} thấy sinh viên được chấm bằng đột biến viết nhiều test đúng hơn. Các công trình này đánh giá cách chấm bộ test. Chúng không so sánh loại phản hồi sinh viên nhìn thấy khi đang viết test.
+
+\subsection{Loại phản hồi như một can thiệp}
+Mansur et al.~\cite{mansur2024} so sánh các học kỳ chỉ dùng độ phủ với một học kỳ dùng kiểm thử đột biến và thấy nhóm sau có bộ test và mã nguồn tốt hơn. Mansur et al.~\cite{mansur2026} so sánh tiếp ba học kỳ và báo cáo rằng báo cáo gốc của PIT chưa đáp ứng nhu cầu của sinh viên nếu không chỉnh sửa và đào tạo thêm. Alonge~\cite{alonge2025} phân ngẫu nhiên 10 sinh viên vào phản hồi nhánh hoặc phản hồi đột biến, đo bằng bài kiểm tra trước và sau khi không còn phản hồi; nhóm đột biến tăng tỉ lệ bắt mutant khái niệm khoảng 0,11, nhóm nhánh khoảng 0,06. Shin và Kazerouni~\cite{shin2024} phỏng vấn 12 sinh viên theo phương pháp nói to suy nghĩ và thấy phản hồi đột biến dễ gây quá tải nhận thức. Cordova et al.~\cite{cordova2021} và Potter et al.~\cite{potter2025} cho thấy cách trình bày phản hồi (mức khái niệm, scaffolding, trực quan hoá) ảnh hưởng đến kết quả. Nhìn chung, bằng chứng nghiêng về phản hồi đột biến, nhưng đến từ mẫu nhỏ, thiết kế giữa nhóm hoặc giữa học kỳ, và thước đo là chất lượng bộ test.
+
+\subsection{Độ phủ, mutant và lỗi thật}
+Inozemtseva và Holmes~\cite{inozemtseva2014} thấy tương quan giữa độ phủ và hiệu quả bộ test chỉ ở mức thấp đến vừa khi kiểm soát số test. Just et al.~\cite{just2014} thấy việc bắt mutant tương quan có ý nghĩa với việc bắt lỗi thật, độc lập với độ phủ. Papadakis et al.~\cite{papadakis2018} thấy tương quan này yếu khi kiểm soát kích thước bộ test. Vì vậy, nghiên cứu này lấy lỗi thật làm thước đo và đưa kích thước bộ test vào phân tích.
+
+\subsection{Khác biệt với công trình gần nhất}
+So với Alonge~\cite{alonge2025}, nghiên cứu này hỏi một câu khác: hiệu quả bổ sung test ngay khi đang có phản hồi, thay vì chuyển giao kỹ năng. Nghiên cứu dùng thiết kế crossover trong cùng người thay vì hai nhóm, dùng Java và JUnit, và đo bằng bài WA thật thay vì mutant do người thiết kế tạo. Shin và Kazerouni~\cite{shin2024} cũng cho cùng một người dùng nhiều loại phản hồi, nhưng đó là nghiên cứu định tính và không đo khả năng phát hiện bài nộp sai.

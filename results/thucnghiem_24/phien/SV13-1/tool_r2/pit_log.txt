@@ -1,0 +1,26 @@
+/-\|/-
+9:04:15?AM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+9:04:15?AM PIT >> INFO : Created 1 mutation test units in pre scan
+9:04:16?AM PIT >> INFO : Sending 1 test classes to minion
+9:04:16?AM PIT >> INFO : Sent tests to minion
+9:04:17?AM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testRangeWithNoPalindromes()]] did not pass without mutation.
+9:04:17?AM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testFullRangeOfPalindromes()]] did not pass without mutation.
+9:04:17?AM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testEdgeCaseB()]] did not pass without mutation.
+9:04:17?AM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testLargeRange()]] did not pass without mutation.
+9:04:17?AM PIT >> INFO : Calculated coverage in 1 seconds.
+9:04:17?AM PIT >> SEVERE : Tests failing without mutation: 
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testRangeWithNoPalindromes()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testFullRangeOfPalindromes()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testEdgeCaseB()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:testLargeRange()]]
+Exception in thread "main" org.pitest.help.PitHelpError: 4 tests did not pass without mutation when calculating line coverage. Mutation testing requires a green suite.
+See https://pitest.org for more details.
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.verifyBuildSuitableForMutationTesting(DefaultCoverageGenerator.java:127)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:109)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:53)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runAnalysis(MutationCoverage.java:150)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runReport(MutationCoverage.java:137)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:137)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:64)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.runReport(MutationCoverageReport.java:98)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.main(MutationCoverageReport.java:45)

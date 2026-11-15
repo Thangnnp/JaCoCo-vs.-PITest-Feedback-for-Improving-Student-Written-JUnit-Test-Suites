@@ -1,0 +1,140 @@
+{
+ "problem_id": "p01125",
+ "put": "s918252364",
+ "manifest_sha256": "c9b63bfe11928c41e4b61dc398a042887ce21da2dc7d257ac22b0d07713bdf37",
+ "WA_mau_so": 71,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s339118034",
+  "s738043047",
+  "s899958366",
+  "s475605699"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-2\\Before.java",
+   "sha256": "21d889b7876035f660d85fecdbc64b0f21936dc74561d78fa20881be7315e83c",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testEdgeCaseAndMultipleMovements",
+    "testSample1",
+    "testSample2"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 34,
+   "WADR": 0.4789,
+   "WADR_giu_bat_dong": 0.4789,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 34,
+   "WADR_phu": 0.4789,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-2\\After_r2.java",
+   "sha256": "81e58d15cf10d7cc142ed12619d7ba9724a2b57ac2210bf5f425169166703d14",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 7,
+   "bien_dich": "ok",
+   "so_test": 7,
+   "test_hop_le": 7,
+   "ten_test_hop_le": [
+    "testAllDirectionsAndBoundaryFixed",
+    "testGemAtStartPoint",
+    "testMovementWithZeroGemsRemaining",
+    "testSample1",
+    "testSample2",
+    "testSample3",
+    "testWestAndSouthMovementWithGems"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 7,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 7,
+   "WA_phat_hien_assertion": 58,
+   "WADR": 0.8169,
+   "WADR_giu_bat_dong": 0.8169,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 58,
+   "WADR_phu": 0.8169,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-2\\After_r3.java",
+   "sha256": "2a9f3f35ec9fe64e9f139044a32a326e85e27cd27dc597c41ef189f9dee89c74",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 7,
+   "bien_dich": "ok",
+   "so_test": 8,
+   "test_hop_le": 7,
+   "ten_test_hop_le": [
+    "testAllDirectionsAndBoundaryFixed",
+    "testEastMovementBoundary",
+    "testMovementWithZeroGemsRemaining",
+    "testSample1",
+    "testSample2",
+    "testSample3",
+    "testWestAndSouthMovementWithGems"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testGemAtStartPointFixed",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 7,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 8,
+   "WA_phat_hien_assertion": 58,
+   "WADR": 0.8169,
+   "WADR_giu_bat_dong": 0.8169,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 58,
+   "WADR_phu": 0.8169,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-2\\After_r4.java",
+   "sha256": "4cc13e53571d97803182c736809510948cfcbd6a150db2f0427200de40b92e4f",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 7,
+   "bien_dich": "ok",
+   "so_test": 8,
+   "test_hop_le": 7,
+   "ten_test_hop_le": [
+    "testAllDirectionsAndBoundaryFixed",
+    "testEastMovementBoundaryDeep",
+    "testMovementWithZeroGemsRemaining",
+    "testSample1",
+    "testSample2",
+    "testSample3",
+    "testWestAndSouthMovementWithGems"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testGemAtStartPointFixed",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 8,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 58,
+   "WADR": 0.8169,
+   "WADR_giu_bat_dong": 0.8169,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 58,
+   "WADR_phu": 0.8169,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 1
+  }
+ }
+}

@@ -1,0 +1,144 @@
+submission_id,before_chinh,before_phu,before_giu_bat_dong,after_T15_chinh,after_T15_phu,after_T15_giu_bat_dong,after_T20_chinh,after_T20_phu,after_T20_giu_bat_dong,after_T30_chinh,after_T30_phu,after_T30_giu_bat_dong
+s002977579,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s004769188,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s011546330,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s012419638,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s018519855,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s032455391,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s048852240,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s059159402,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s061897142,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s068437856,phat_hien,"phat_hien [EXIT,FAIL]",phat_hien,phat_hien,"phat_hien [EXIT,FAIL]",phat_hien,phat_hien,"phat_hien [EXIT,FAIL]",phat_hien,phat_hien,"phat_hien [EXIT,FAIL]",phat_hien
+s072013219,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s072104965,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s083336878,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s083815176,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s086392923,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s089023798,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s092187734,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s105874818,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s112508954,khong,khong [EXIT],khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s143822695,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s146360031,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s157126057,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s161944639,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s168187410,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s173890233,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s175147327,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s178510083,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s188612234,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s190829343,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s194067312,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s194442078,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s197919829,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s198689617,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s206563865,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s219956387,khong,khong [TIMEOUT],khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s221077690,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s226825623,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s250946664,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s260782475,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s265287620,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s269331771,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s286107183,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s296807091,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s300554904,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s306502385,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s307040813,khong,khong [EXIT],khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s308055223,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s325106883,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s344493125,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s346596816,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s360042786,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s372510850,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s373044066,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s377985414,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s385761063,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s388688697,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s390285259,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s401242760,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s408857061,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s412537278,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s412580873,khong,khong [TIMEOUT],khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s414642158,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s420343200,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s443160400,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s460238514,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s461835317,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s462149190,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s470497848,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s475277980,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s478929636,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s479402909,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s485455012,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s509936750,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s513072172,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s513555563,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s551426257,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s556952877,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s565647483,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s568540115,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s577796648,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s589043055,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s591200949,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s608969452,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s618197289,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s622260802,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s631124099,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s638814449,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s641849876,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s649693819,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s659694922,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s677658180,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s680136978,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s682371418,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s690327207,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s695850572,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s702253447,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s702600982,khong,khong [EXIT],khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s710619093,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s715816081,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s721024485,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s727347354,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s728493466,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s736551549,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s773858715,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s775759614,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s784076806,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s793061106,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s796204732,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s796228095,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s799891444,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s829361152,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s840567363,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s842462179,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s842576676,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s843753572,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s861923559,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s867004229,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s869636097,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s874320664,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s876403229,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s884105009,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s886870701,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s887215113,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s890969260,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s893481907,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s900219000,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s900449723,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s906684107,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s907422151,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s907984309,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s910293069,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s911248267,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s911722234,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s915709566,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s920366228,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s955327352,phat_hien,phat_hien [FAIL],phat_hien,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s962734024,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s966673623,khong,khong,khong,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s975594387,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s982064777,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien,phat_hien,phat_hien [FAIL],phat_hien
+s988008973,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s993662149,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong
+s995371436,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong,khong

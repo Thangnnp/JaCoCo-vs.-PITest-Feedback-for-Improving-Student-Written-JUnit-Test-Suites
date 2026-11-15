@@ -1,0 +1,16 @@
+\section{Giới thiệu}
+\label{sec:intro}
+
+Nghiên cứu có 24 người tham gia.
+
+Trong các môn kiểm thử phần mềm, sinh viên thường viết bộ kiểm thử JUnit cho một chương trình rồi bổ sung test dựa trên phản hồi từ công cụ. Hai loại phản hồi phổ biến nhất là độ phủ nhánh và kiểm thử đột biến. JaCoCo chỉ ra những nhánh trong mã nguồn chưa có test nào chạy qua. PITest tạo ra các phiên bản lỗi nhỏ của chương trình (mutant) và liệt kê mutant nào bộ test chưa phát hiện. Cả hai đều gợi ý test cần viết tiếp. Mục đích của việc viết test là bắt lỗi, còn độ phủ và điểm đột biến chỉ đo điều đó một cách gián tiếp.
+
+Các nghiên cứu trên dự án nguồn mở cho thấy khi kiểm soát kích thước bộ test, độ phủ chỉ tương quan thấp đến vừa với khả năng bắt lỗi~\cite{inozemtseva2014}, và điểm đột biến cũng chỉ tương quan yếu với việc bắt lỗi thật~\cite{papadakis2018}. Trong giáo dục, các so sánh hiện có giữa hai loại phản hồi đều dùng thiết kế giữa các nhóm hoặc giữa các học kỳ, mẫu nhỏ, và đo bằng chất lượng bộ test~\cite{mansur2024,alonge2025}. Thời gian thực hành có hạn, nên giảng viên cần biết loại phản hồi nào giúp sinh viên viết được test bắt nhiều lỗi thật hơn.
+
+Nghiên cứu này so sánh hai loại phản hồi trên cùng một người, trong cùng ngân sách thời gian, với thước đo là các bài nộp Wrong Answer (WA) thật được giữ kín. Câu hỏi nghiên cứu:
+
+\textbf{RQ1.} Trong cùng ngân sách thời gian bổ sung kiểm thử, phản hồi nhánh chưa phủ của JaCoCo (điều kiện J) và phản hồi mutant sống sót của PITest (điều kiện P) khác nhau như thế nào về mức tăng tỉ lệ phát hiện các bài nộp Wrong Answer được giữ kín, so với bộ JUnit ban đầu của chính người tham gia?
+
+Nghiên cứu đóng góp ba điều: (1) một thước đo không tự xác nhận, $\Delta\mathrm{WADR}$, dựa trên bài WA thật mà người tham gia không nhìn thấy, dùng thay cho độ phủ hay điểm đột biến mà chính hai công cụ cung cấp; (2) kết quả của một thực nghiệm crossover thăm dò (exploratory) với 24 người tham gia trên 12 bài Java của IBM CodeNet, báo cáo kèm độ lớn chênh lệch và khoảng tin cậy dù không bác bỏ $H_0$; (3) tiêu chí chọn bài, dữ liệu đã khoá, script chấm và phân tích đều được công khai để tái lập.
+
+Phần còn lại của bài gồm: Section~\ref{sec:related} trình bày các công trình liên quan, Section~\ref{sec:methods} mô tả phương pháp, Section~\ref{sec:results} báo cáo kết quả, Section~\ref{sec:discussion} thảo luận, Section~\ref{sec:threats} nêu các mối đe doạ đến tính hợp lệ và Section~\ref{sec:conclusion} kết luận.

@@ -1,0 +1,16 @@
+\section{Introduction}
+\label{sec:intro}
+
+The study had 24 participants.
+
+In software testing courses, students often write a JUnit test suite for a program and then add tests based on feedback from a tool. The two most common kinds of feedback are branch coverage and mutation testing. JaCoCo shows which branches in the source code no test has executed. PITest creates small faulty versions of the program (mutants) and lists the mutants the test suite has not detected. Both suggest which tests to write next. The purpose of writing tests is to catch faults; coverage and mutation score measure this only indirectly.
+
+Studies on open-source projects found that, once test suite size is controlled for, coverage has only a low to moderate correlation with fault detection~\cite{inozemtseva2014}, and mutation score is also only weakly correlated with detecting real faults~\cite{papadakis2018}. In education, existing comparisons of the two kinds of feedback all use between-group or between-semester designs, small samples, and test suite quality as the outcome~\cite{mansur2024,alonge2025}. Practice time is limited, so instructors need to know which kind of feedback helps students write tests that catch more real faults.
+
+This study compares the two kinds of feedback within the same person, under the same time budget, using real held-out Wrong Answer (WA) submissions as the outcome. The research question is:
+
+\textbf{RQ1.} Within the same time budget for adding tests, how do uncovered-branch feedback from JaCoCo (condition J) and surviving-mutant feedback from PITest (condition P) differ in the gain in detection rate of held-out Wrong Answer submissions, relative to the participant's own initial JUnit suite?
+
+The study makes three contributions: (1) a non-self-confirming measure, $\Delta\mathrm{WADR}$, based on real WA submissions that participants never see, used instead of the coverage or mutation score that the two tools themselves report; (2) results of an exploratory crossover experiment with 24 participants on 12 Java problems from IBM CodeNet, reported with effect sizes and confidence intervals even though $H_0$ was not rejected; (3) public problem selection criteria, frozen data, grading scripts and analysis for reproduction.
+
+The rest of the paper is organised as follows. Section~\ref{sec:related} presents related work, Section~\ref{sec:methods} describes the method, Section~\ref{sec:results} reports the results, Section~\ref{sec:discussion} discusses them, Section~\ref{sec:threats} covers threats to validity and Section~\ref{sec:conclusion} concludes.

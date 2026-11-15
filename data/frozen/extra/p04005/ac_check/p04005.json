@@ -1,0 +1,52 @@
+{
+ "problem_id": "p04005",
+ "put": "s226763049",
+ "put_user_id": "u061996193",
+ "k": 4,
+ "seed": 2026,
+ "so_dau_vao_tham_chieu": 17,
+ "ac_doi_chieu": [
+  "s916411039",
+  "s870105146",
+  "s357911735",
+  "s296868363"
+ ],
+ "du_k": true,
+ "sha256_nguon": {
+  "s916411039": "aac03c84faf57218bed2d6fd7b26278016a4dc3e2295c2a764c880488a5e95b9",
+  "s870105146": "d7e7ad1d1380528bceb5e524646a79e6ea72fe2af733877f89e281a8d7e372a6",
+  "s357911735": "548b62b46a827f85e9f164142b46cc68d7930ba3b1316c5f3c1a7743b0354547",
+  "s296868363": "444e3279837608d12abff82bf7971df53166dddacb34a24bd5ba7b52610321d4"
+ },
+ "nhat_ky": [
+  {
+   "submission": "s916411039",
+   "user_id": "u329837707",
+   "ket_qua": "CHỌN"
+  },
+  {
+   "submission": "s870105146",
+   "user_id": "u274962354",
+   "ket_qua": "CHỌN"
+  },
+  {
+   "submission": "s357911735",
+   "user_id": "u653981267",
+   "ket_qua": "CHỌN"
+  },
+  {
+   "submission": "s134842004",
+   "user_id": "u997005069",
+   "ket_qua": "khác PUT trên 2/17 đầu vào tham chiếu",
+   "vi_du": [
+    "012.in",
+    "013.in"
+   ]
+  },
+  {
+   "submission": "s296868363",
+   "user_id": "u960381601",
+   "ket_qua": "CHỌN"
+  }
+ ]
+}

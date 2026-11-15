@@ -1,0 +1,213 @@
+{
+ "problem_id": "p03126",
+ "put_hien_tai": "s497267515",
+ "so_ung_vien_da_xet": 30,
+ "put_dat": null,
+ "so_dat_1_3": 0,
+ "nhat_ky": [
+  {
+   "submission": "s362833862",
+   "nhanh": "6/6",
+   "mutant_song_sot": 1,
+   "mutant": "9/10",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s169977079",
+   "nhanh": "6/6",
+   "mutant_song_sot": 0,
+   "mutant": "6/6",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s799106918",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "9/9",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s160874945",
+   "nhanh": "6/6",
+   "mutant_song_sot": 1,
+   "mutant": "7/8",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s311963049",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "9/9",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s487457453",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "12/12",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s000989370",
+   "nhanh": "12/12",
+   "mutant_song_sot": 0,
+   "mutant": "13/13",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s762077963",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "8/8",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s994311402",
+   "nhanh": "8/8",
+   "mutant_song_sot": 1,
+   "mutant": "11/12",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s494490150",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "11/11",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s490763851",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "12/12",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s963756571",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "11/11",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s634801052",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "10/10",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s689694412",
+   "ket_qua": "Judge.run lệch 1/17"
+  },
+  {
+   "submission": "s456603938",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "11/11",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s277802678",
+   "nhanh": "10/10",
+   "mutant_song_sot": 0,
+   "mutant": "14/24",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s700143158",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "9/9",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s474547495",
+   "nhanh": "8/8",
+   "mutant_song_sot": 1,
+   "mutant": "11/12",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s497796799",
+   "nhanh": "12/12",
+   "mutant_song_sot": 0,
+   "mutant": "17/17",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s065680053",
+   "nhanh": "6/6",
+   "mutant_song_sot": 2,
+   "mutant": "10/12",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s653720303",
+   "nhanh": "14/14",
+   "mutant_song_sot": 4,
+   "mutant": "14/18",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s901412630",
+   "nhanh": "6/6",
+   "mutant_song_sot": 1,
+   "mutant": "8/9",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s234304240",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "12/12",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s991790312",
+   "nhanh": "14/16",
+   "mutant_song_sot": 0,
+   "mutant": "16/17",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s785823305",
+   "nhanh": "4/4",
+   "mutant_song_sot": 0,
+   "mutant": "9/9",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s368224175",
+   "ket_qua": "có System.exit"
+  },
+  {
+   "submission": "s655836090",
+   "nhanh": "10/10",
+   "mutant_song_sot": 0,
+   "mutant": "16/16",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s324766464",
+   "nhanh": "14/14",
+   "mutant_song_sot": 1,
+   "mutant": "15/16",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s144570808",
+   "nhanh": "10/10",
+   "mutant_song_sot": 1,
+   "mutant": "9/10",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s998859631",
+   "nhanh": "10/10",
+   "mutant_song_sot": 0,
+   "mutant": "9/9",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  }
+ ]
+}

@@ -1,0 +1,29 @@
+# Lưu ý: Git chỉ coi "#" là chú thích khi nó đứng ở đầu dòng.
+# Chú thích viết cùng dòng với mẫu sẽ bị đọc thành một phần tên file, nên mọi chú thích phải đứng trên dòng riêng.
+
+# 1. Bảo mật (API key, mật khẩu)
+.env
+*.env
+secrets.json
+api_key.txt
+config.py
+
+# 2. File tạm, môi trường ảo Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# 3. File hệ điều hành
+.DS_Store
+desktop.ini
+Thumbs.db
+
+# 4. Thư viện .jar tải từ Maven Central (xem tools/gap1-pilot/README.md, SHA-256 trong pilot-results-2026-10-24/SHA256_tools.txt)
+lib/
+
+# 5. Thư mục tạm do script sinh khi chạy (bản biên dịch, harness)
+_cache/
+_work/
+*.class

@@ -1,0 +1,164 @@
+{
+ "problem_id": "p00144",
+ "put": "s135751390",
+ "manifest_sha256": "da076a991889daf573aa1eece75e2cf8cc2cf0ae5c9d12b1d76ffb68a42cf2a7",
+ "WA_mau_so": 38,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s625778482",
+  "s019260377",
+  "s130494609",
+  "s986765194"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV06-2\\Before.java",
+   "sha256": "bea0e770ab09545c619e4eed704344950291370520a3945a6b6c5b5cd19a4bdc",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "test1",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test2",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test3",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV06-2\\After_r2.java",
+   "sha256": "35e3736c35337d602e0ef0d5517a0a806121bb5c0411a68a6f386ea9b19e457e",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "test1",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test2",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test3",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV06-2\\After_r3.java",
+   "sha256": "466ff611f5ca4cd946cb1312547307212fbf0c31da8f90ed8551479c256d349f",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "test1",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test2",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test3",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV06-2\\After_r4.java",
+   "sha256": "9e1453422a8af1afe0e317beab6bb69d660e6c50d7a51faa3e63edb6b443419d",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "test1",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test2",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "test3",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ }
+}

@@ -1,0 +1,200 @@
+{
+ "problem_id": "p02263",
+ "put": "s781975706",
+ "manifest_sha256": "1316187b9bbfb78541005c2a4aacae5375adaa5b621ad5ee570a6ea24adc1657",
+ "WA_mau_so": 92,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s207648246",
+  "s259589934",
+  "s802755231",
+  "s393262825"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-1\\Before.java",
+   "sha256": "c5be85f0efdd5c25bce7d81dad1488c9d56a1fc81cbb2354cbf863993a825fa9",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 1,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 1,
+   "ten_test_hop_le": [
+    "testAddition"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testSubtraction",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-3> but was: <-1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 1,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 34,
+   "WADR": 0.3696,
+   "WADR_giu_bat_dong": 0.3696,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 34,
+   "WADR_phu": 0.3696,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-1\\After_r2.java",
+   "sha256": "30a6be6b49b4dcee1158ddf5ef241de0c9d354bcfba09dcfcb0a1a208bc92696",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 5,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testAddition",
+    "testMultiplication"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testDivision",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-0.5> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSubtraction",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-3> but was: <-1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 5,
+   "WA_phat_hien_assertion": 35,
+   "WADR": 0.3804,
+   "WADR_giu_bat_dong": 0.3804,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 36,
+   "WADR_phu": 0.3913,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-1\\After_r3.java",
+   "sha256": "995d9f2a71603b0dd6e9763fafad5953b06e9b48c17fd327279d701e71ce4fd9",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 7,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testAddition",
+    "testMultiplication"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testComplexExpression1",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <5> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testComplexExpression2",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <47>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testDivision",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-0.5> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSubtraction",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-3> but was: <-1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 7,
+   "WA_phat_hien_assertion": 35,
+   "WADR": 0.3804,
+   "WADR_giu_bat_dong": 0.3804,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 36,
+   "WADR_phu": 0.3913,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV05-1\\After_r4.java",
+   "sha256": "454048d5686f21eb47948f2c647144189542bcb02af49cf088268107da6b9914",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testAddition",
+    "testMultiplication"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testAdditionAndSubtraction",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testComplexExpression1",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <5> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testComplexExpression2",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <47>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testDivision",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-0.5> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testMultiplicationAndDivision",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1.5> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSubtraction",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-3> but was: <-1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleNumber",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 35,
+   "WADR": 0.3804,
+   "WADR_giu_bat_dong": 0.3804,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 36,
+   "WADR_phu": 0.3913,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ }
+}

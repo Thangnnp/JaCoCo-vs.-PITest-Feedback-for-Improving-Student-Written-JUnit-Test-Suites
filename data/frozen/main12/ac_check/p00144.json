@@ -1,0 +1,43 @@
+{
+ "problem_id": "p00144",
+ "put": "s135751390",
+ "put_user_id": "u918572590",
+ "k": 4,
+ "seed": 2026,
+ "so_dau_vao_tham_chieu": 12,
+ "ac_doi_chieu": [
+  "s625778482",
+  "s019260377",
+  "s130494609",
+  "s986765194"
+ ],
+ "du_k": true,
+ "sha256_nguon": {
+  "s625778482": "26520e56ebb96c50314aa6d8e74385be1cd0936be3374e68303f24808b48a12c",
+  "s019260377": "1f8aa244ad5b94abd4ca33dd57c53791c20627a88ecee189042c058cbe032e71",
+  "s130494609": "a08a0e19af803afc51a4c361c61da6b2fb6c422e8f59ce094d5678663b037b54",
+  "s986765194": "95c4efaba7017406e2c27666609f38d02518cbb5fa692416ef571aa51199858e"
+ },
+ "nhat_ky": [
+  {
+   "submission": "s625778482",
+   "user_id": "u026004148",
+   "ket_qua": "CHỌN"
+  },
+  {
+   "submission": "s019260377",
+   "user_id": "u660498157",
+   "ket_qua": "CHỌN"
+  },
+  {
+   "submission": "s130494609",
+   "user_id": "u576153335",
+   "ket_qua": "CHỌN"
+  },
+  {
+   "submission": "s986765194",
+   "user_id": "u660879425",
+   "ket_qua": "CHỌN"
+  }
+ ]
+}

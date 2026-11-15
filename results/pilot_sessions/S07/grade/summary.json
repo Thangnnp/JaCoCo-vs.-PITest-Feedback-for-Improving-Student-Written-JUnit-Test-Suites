@@ -1,0 +1,179 @@
+{
+ "problem_id": "p02909",
+ "put": "s470507275",
+ "manifest_sha256": "85066942ea355b0f40873c432aa227cd9654bf41743f28ad0f30caa5f714d57f",
+ "WA_mau_so": 102,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s792998684",
+  "s605838385",
+  "s235017342",
+  "s379242978"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_lan3\\pilot_sessions\\S07\\Before.java",
+   "sha256": "7530d124a7f2707680dcbbc10b15a4edc90c60d22fd8994f02a9478fc316c1bf",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testCloudy",
+    "testRainy",
+    "testSunny"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 102,
+   "WADR": 1.0,
+   "WADR_giu_bat_dong": 1.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 102,
+   "WADR_phu": 1.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_lan3\\pilot_sessions\\S07\\After_r2.java",
+   "sha256": "b92bdbd656c97dab814fceac6fe31bf7e5f3cfcb934300e9e55826a6884a621f",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 6,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testCloudy",
+    "testRainy",
+    "testSunny"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testCaseInsensitive",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <Cloudy> but was: <a>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidInput",
+     "ly_do": "HARNESS trên PUT: java.lang.IllegalStateException: HARNESS: không nạp được codenet.Main: java.lang.NullPointerException: Cannot invoke \"String.getBytes(java.nio.charset.Charset)\" because \"<parameter1>\" is null",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNoInput",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException: No line found",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 10,
+   "WA_phat_hien_assertion": 102,
+   "WADR": 1.0,
+   "WADR_giu_bat_dong": 1.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 102,
+   "WADR_phu": 1.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_lan3\\pilot_sessions\\S07\\After_r3.java",
+   "sha256": "eb36097c2681ebd871520d5a2d6e2c16de98004459fb81c122d2dd6872b4e199",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 7,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testCloudy",
+    "testRainy",
+    "testSunny"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testCaseInsensitive",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <Cloudy> but was: <a>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidInput",
+     "ly_do": "HARNESS trên PUT: java.lang.IllegalStateException: HARNESS: không nạp được codenet.Main: java.lang.NullPointerException: Cannot invoke \"String.getBytes(java.nio.charset.Charset)\" because \"<parameter1>\" is null",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNoInput",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException: No line found",
+     "fail_type": "method"
+    },
+    {
+     "test": "testMultipleConsecutiveInputs",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 11,
+   "WA_phat_hien_assertion": 102,
+   "WADR": 1.0,
+   "WADR_giu_bat_dong": 1.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 102,
+   "WADR_phu": 1.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_lan3\\pilot_sessions\\S07\\After_r4.java",
+   "sha256": "f6a253ba06747dda7901995cb5970d4b7c93825668d54740613885fc4880630a",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 8,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testCloudy",
+    "testRainy",
+    "testSunny"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testCaseInsensitive",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <Cloudy> but was: <a>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testInvalidInput",
+     "ly_do": "HARNESS trên PUT: java.lang.IllegalStateException: HARNESS: không nạp được codenet.Main: java.lang.NullPointerException: Cannot invoke \"String.getBytes(java.nio.charset.Charset)\" because \"<parameter1>\" is null",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNoInput",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException: No line found",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLineCoverage",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testMultipleConsecutiveInputs",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 3,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 13,
+   "WA_phat_hien_assertion": 102,
+   "WADR": 1.0,
+   "WADR_giu_bat_dong": 1.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 102,
+   "WADR_phu": 1.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ }
+}

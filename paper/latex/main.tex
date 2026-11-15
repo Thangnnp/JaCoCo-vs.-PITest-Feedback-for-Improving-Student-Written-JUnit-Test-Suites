@@ -1,0 +1,33 @@
+\documentclass[10pt,twocolumn]{article}
+\usepackage[margin=0.75in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern,amsmath,amssymb,graphicx,booktabs,url}
+\usepackage[hidelinks]{hyperref}
+\title{Coverage vs.\ Mutation Feedback for Improving Student JUnit Tests:\\ A Crossover Study on Held-Out Wrong Answer Submissions}
+\author{Pham Nhat Thang \and Tran Trieu Tien \and Ngo Minh Tien \and Phung Thanh Nhan\\
+\small FPT University, Ho Chi Minh City, Vietnam}
+\date{}
+% Bảng và hình trải hết hai cột
+\let\origtable\table \let\endorigtable\endtable
+\renewenvironment{table}[1][t]{\begin{table*}[#1]}{\end{table*}}
+\renewenvironment{figure}[1][t]{\begin{figure*}[#1]}{\end{figure*}}
+\begin{document}
+\twocolumn[\maketitle\vspace{-2em}]
+\input{sections/00_abstract}
+\IfFileExists{sections/01_introduction.tex}{\input{sections/01_introduction}}{}
+\IfFileExists{sections/02_related_work.tex}{\input{sections/02_related_work}}{}
+\IfFileExists{sections/03_methodology.tex}{\input{sections/03_methodology}}{}
+\input{sections/04_results}
+\input{sections/05_discussion}
+\input{sections/06_threats}
+\input{sections/07_conclusion}
+
+\section*{Conflict of Interest}
+The authors declare no conflict of interest.
+
+\section*{Data Availability}
+The frozen problem list, WA manifests, session data, grading and analysis scripts, and the analysis notebook are available in the project repository (RT-SWT301-004-nhom3).
+
+\bibliographystyle{plain}
+\bibliography{references}
+\end{document}

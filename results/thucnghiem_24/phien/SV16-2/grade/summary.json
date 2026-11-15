@@ -1,0 +1,182 @@
+{
+ "problem_id": "p00144",
+ "put": "s135751390",
+ "manifest_sha256": "da076a991889daf573aa1eece75e2cf8cc2cf0ae5c9d12b1d76ffb68a42cf2a7",
+ "WA_mau_so": 38,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s625778482",
+  "s019260377",
+  "s130494609",
+  "s986765194"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV16-2\\Before.java",
+   "sha256": "e2bd0cd18b3116dbb3e523885b7021e4f6059f56110eaae34d4c6014a086e72c",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testNoPath",
+    "testSample",
+    "testTTLBoundary"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 8,
+   "WADR": 0.2105,
+   "WADR_giu_bat_dong": 0.2105,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 8,
+   "WADR_phu": 0.2105,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV16-2\\After_r2.java",
+   "sha256": "9f7c55b4d2b73617b23a30ae35941be11bdb4f8154c5cd3ef51cbd7b4717bea8",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 7,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testNoPath",
+    "testSample"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testHighTTL",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <3>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testPathOptimization",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testTTLBoundary",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <NA>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testTTLStrictness",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <NA>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSameSourceDestination",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 7,
+   "WA_phat_hien_assertion": 8,
+   "WADR": 0.2105,
+   "WADR_giu_bat_dong": 0.2105,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 8,
+   "WADR_phu": 0.2105,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV16-2\\After_r3.java",
+   "sha256": "8f5e27952fef2cd2c18e6657c13999fc64c8328d4e87b22dd18da5cda64bdb1a",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 6,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testDisconnectedComponent",
+    "testNoPath",
+    "testSample"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testPathOptimization",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testTTLBoundary",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <NA>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testTTLStrictness",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <NA>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 6,
+   "WA_phat_hien_assertion": 8,
+   "WADR": 0.2105,
+   "WADR_giu_bat_dong": 0.2105,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 8,
+   "WADR_phu": 0.2105,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV16-2\\After_r4.java",
+   "sha256": "e9869103969ea4c4540d73d4854f10019775e6f3a3b6f3fb612654413bb3e094",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 7,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testNoPath",
+    "testSample"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testLoopInGraph",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testPathOptimization",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleHopDirect",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <2>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testTTLBoundary",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <NA>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testTTLStrictness",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <NA>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 7,
+   "WA_phat_hien_assertion": 8,
+   "WADR": 0.2105,
+   "WADR_giu_bat_dong": 0.2105,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 8,
+   "WADR_phu": 0.2105,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ }
+}

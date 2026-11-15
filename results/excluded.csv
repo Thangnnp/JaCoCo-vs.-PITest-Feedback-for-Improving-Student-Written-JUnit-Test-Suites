@@ -1,0 +1,7 @@
+session_id,sv_id,dieu_kien,pid,fail_type,ly_do,pham_vi
+SV24-1,SV24,P,p03253,method,After (T = 20) không biên dịch,loại khỏi phân tích chính; độ nhạy coi WADR(After) = 0
+SV24-2,SV24,J,p03378,,phiên cùng người (SV24-1) bị loại nên không ghép cặp được,loại khỏi phân tích ghép cặp chính
+SV14-1,SV14,P,p03196,method,After (T = 20) không biên dịch,loại khỏi phân tích chính; độ nhạy coi WADR(After) = 0
+SV14-2,SV14,J,p01125,,phiên cùng người (SV14-1) bị loại nên không ghép cặp được,loại khỏi phân tích ghép cặp chính
+SV05-2,SV05,P,p03633,method,"Before không biên dịch: WADR(Before) = 0, không có báo cáo (§5.3 quy tắc 4)",giữ trong phân tích chính
+SV14-1,SV14,P,p03196,method,"Before không biên dịch: WADR(Before) = 0, không có báo cáo (§5.3 quy tắc 4)",bị loại vì After cũng không biên dịch (dòng trên)

@@ -1,0 +1,8 @@
+\section{Conclusion}
+\label{sec:conclusion}
+
+We compared uncovered-branch feedback from JaCoCo with surviving-mutant feedback from PITest in a crossover experiment. Twenty-four participants added JUnit tests to two CodeNet programs under the same 20-minute budget, and we measured the gain in detection of held-out real Wrong Answer submissions.
+We found no difference between the two feedback types ($\hat{\theta}$ = $-$0.012, 95\% CI [$-$0.118, 0.074], p = 0.483, N = 22), and all pre-specified sensitivity analyses agreed.
+Two things limit this result. Most added tests were invalid, mainly because of wrong expected outputs. And with its default configuration, PITest produced no report in 58 of 96 runs because of failing tests.
+
+Future work should (1) repeat the experiment with students in a software testing course, using the 48 participants planned in the protocol, to reach a minimum detectable effect near $\delta$ = 0.10; (2) run PITest only on tests that pass on the program under test, so that every P session receives a mutation report, and compare this configuration with the default; and (3) give both groups a way to check expected outputs, to test whether the report type matters once tests are valid.

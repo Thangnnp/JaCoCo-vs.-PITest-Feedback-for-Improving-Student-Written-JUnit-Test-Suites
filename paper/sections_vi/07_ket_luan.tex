@@ -1,0 +1,8 @@
+\section{Kết luận}
+\label{sec:conclusion}
+
+Nghiên cứu so sánh phản hồi nhánh chưa phủ của JaCoCo với phản hồi mutant sống sót của PITest trong một thực nghiệm crossover: 24 người tham gia bổ sung test JUnit cho hai chương trình CodeNet với cùng ngân sách 20 phút, và đo mức tăng khả năng phát hiện các bài nộp Wrong Answer thật được giữ kín.
+Chưa thấy khác biệt giữa hai loại phản hồi ($\hat{\theta} = -0,012$, KTC 95\% $[-0,118; 0,074]$, $p = 0,483$, $N = 22$), và mọi phân tích độ nhạy đã nêu trước đều cho cùng kết luận.
+Hai quan sát giới hạn kết quả này: phần lớn test bổ sung không hợp lệ, chủ yếu do expected sai, và PITest với cấu hình mặc định không cho báo cáo ở 58/96 lần chạy vì có test fail.
+
+Hướng làm tiếp: (1) lặp lại thực nghiệm với sinh viên trong môn kiểm thử phần mềm, đủ 48 người như protocol, để MDE gần $\delta = 0,10$; (2) chỉ chạy PITest trên các test pass trên chương trình được kiểm thử để mọi phiên P đều có báo cáo mutant, và so cấu hình này với cấu hình mặc định; (3) cho cả hai nhóm cách kiểm tra expected, để xem loại báo cáo có tạo khác biệt khi test đã hợp lệ hay không.

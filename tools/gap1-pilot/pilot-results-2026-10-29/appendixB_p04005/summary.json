@@ -1,0 +1,13 @@
+{
+ "problem_id": "p04005",
+ "put": "s226763049",
+ "tool": "jacoco",
+ "test": "cn45/ex/p04005/SampleTest.java",
+ "branch_covered": 6,
+ "branch_total": 8,
+ "branch_coverage": 0.75,
+ "dong_con_nhanh_chua_phu": 1,
+ "dong_con_lenh_chua_chay": 1,
+ "junit_tests_successful": 3,
+ "junit_tests_failed": 0
+}

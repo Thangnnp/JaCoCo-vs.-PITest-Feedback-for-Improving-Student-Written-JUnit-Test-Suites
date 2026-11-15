@@ -1,0 +1,18 @@
+\section{Threats to Validity}
+\label{sec:threats}
+
+\textbf{Internal validity.}
+Participants may carry skills from the first session into the second, or tire during it. We counterbalanced tool order in the crossover schedule and used a different problem in each session. The crossover regression estimated a period effect of 0.004 (p = 0.934), but with 22 participants this test has little power, so a carry-over effect cannot be ruled out.
+A second threat is that PITest produced no report in 58 of 96 runs because a test failed on the program. The comparison is therefore between JaCoCo reports and PITest as users actually experience it with its default configuration, not between two complete reports. We report the share of runs with a report per condition, plus an exploratory analysis restricted to participants who received at least one PITest report.
+
+\textbf{External validity.}
+All tasks were small Java programs from IBM CodeNet~\cite{puri2021}, selected so that both tools report items that reference inputs can cover or kill. Results may differ for larger programs, other languages or other problem types.
+
+\textbf{Construct validity.}
+WADR counts detected WA submissions, not distinct faults, so several submissions may share one fault.
+The oracle is the output agreed by at least 90\% of Accepted solutions, together with four independent Accepted solutions per problem. It can still be wrong on rare valid inputs. Three tests disagreed with the reference solutions, and WADR was the same whether they were kept or removed. We did not review these three tests manually, because the result does not depend on them.
+A validator removed tests outside the problem constraints. Inputs that the validator accepts but the problem does not intend may remain.
+
+\textbf{Conclusion validity.}
+With N = 22 participants in the main analysis, the simulation in the protocol gives a minimum detectable effect between 0.07 and 0.23, depending on the assumed variability. A true difference of $\delta$ = 0.10 could therefore easily be missed. We report the estimate with its 95\% confidence interval ([$-$0.118, 0.074]) and do not claim that the two feedback types are equivalent, since no equivalence test was pre-registered.
+Problems are shared between participants, so the paired differences are not fully independent. The mixed model with problem as a fixed effect gave the same conclusion.

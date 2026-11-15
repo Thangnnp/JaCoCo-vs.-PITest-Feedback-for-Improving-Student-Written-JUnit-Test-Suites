@@ -1,0 +1,190 @@
+{
+ "problem_id": "p03253",
+ "put": "s490019423",
+ "manifest_sha256": "bdb29d663ecb8da614c4d93003e72feabd4e575d27ab733de077cd3656063de4",
+ "WA_mau_so": 116,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s435380472",
+  "s133913586",
+  "s784712912",
+  "s078800535"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV12-2\\Before.java",
+   "sha256": "aba2f9558cc10414172c48681f2c4e0737cc85d5659ef27cee831fb4444bca24",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testSampleInput1",
+    "testSampleInput2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testSmallPrimeFactorization",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <125>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 22,
+   "WADR": 0.1897,
+   "WADR_giu_bat_dong": 0.1897,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 22,
+   "WADR_phu": 0.1897,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 3
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV12-2\\After_r2.java",
+   "sha256": "4b42bf37b93d819111b8df1de6de1b1029a645cf91c773f344b62006e3f100b5",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 5,
+   "bien_dich": "ok",
+   "so_test": 7,
+   "test_hop_le": 5,
+   "ten_test_hop_le": [
+    "testEdgeCase1",
+    "testEdgeCase2",
+    "testLargeInput",
+    "testSampleInput1",
+    "testSampleInput2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testSmallInputFactorOne",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSmallPrimeFactorization",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <125>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 5,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 7,
+   "WA_phat_hien_assertion": 50,
+   "WADR": 0.431,
+   "WADR_giu_bat_dong": 0.431,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 50,
+   "WADR_phu": 0.431,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 6
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV12-2\\After_r3.java",
+   "sha256": "546c61ada16d28fd30ff5ebd0bf8da2f68bfe04125dd9b062dfb9539e080105f",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 5,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 5,
+   "ten_test_hop_le": [
+    "testEdgeCase1",
+    "testEdgeCase2",
+    "testLargeInput",
+    "testSampleInput1",
+    "testSampleInput2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testLargeNWithPrimeM",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.lang.NumberFormatException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneFactorOfN",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.lang.NumberFormatException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSmallInputFactorOne",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSmallPrimeFactorization",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <125>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 5,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 50,
+   "WADR": 0.431,
+   "WADR_giu_bat_dong": 0.431,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 50,
+   "WADR_phu": 0.431,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 6
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV12-2\\After_r4.java",
+   "sha256": "997f7710ca03848d1905fdafa7afe51f537b38b4ae22e0fb38f2e96b4deacea3",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 5,
+   "bien_dich": "ok",
+   "so_test": 11,
+   "test_hop_le": 5,
+   "ten_test_hop_le": [
+    "testEdgeCase1",
+    "testEdgeCase2",
+    "testLargeInput",
+    "testSampleInput1",
+    "testSampleInput2"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testLargeNWithPrimeM",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.lang.NumberFormatException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLargePrimeInput",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.lang.NumberFormatException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testMultipleFactorsOfN",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.lang.NumberFormatException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneFactorOfN",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.lang.NumberFormatException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSmallInputFactorOne",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <2> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSmallPrimeFactorization",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <6> but was: <125>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 5,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 11,
+   "WA_phat_hien_assertion": 50,
+   "WADR": 0.431,
+   "WADR_giu_bat_dong": 0.431,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 50,
+   "WADR_phu": 0.431,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 6
+  }
+ }
+}

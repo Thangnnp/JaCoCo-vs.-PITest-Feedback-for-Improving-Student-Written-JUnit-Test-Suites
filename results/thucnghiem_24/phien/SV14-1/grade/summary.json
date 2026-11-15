@@ -1,0 +1,62 @@
+{
+ "problem_id": "p03196",
+ "put": "s773186766",
+ "manifest_sha256": "ba67d2419027f411a85a6ec0113c88aad288189b1caac3cc0640cc7aac061374",
+ "WA_mau_so": 92,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s480125361",
+  "s505285685",
+  "s639527139",
+  "s161515879"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\Before.java",
+   "sha256": "ce96bc2618d69252cca765baeb3edba0f55132c0943d208b45eec2acbb2c55e8",
+   "bien_dich": "lỗi",
+   "loi": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\grade\\_test_before\\src\\codenet\\Before.java:14: error: cannot find symbol\n        assertEquals(2, Main.main(new String[]{\"3\", \"24\"}));\n                        ^\n  symbol:   variable Main\n  location: class Before\nC:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\grade\\_test_before\\src\\codenet\\Before",
+   "fail_type": "method"
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\After_r2.java",
+   "sha256": "57f1929ec9b58208bbb450d9e897db05d9b7f68a302f6ccc7252e5b2b4e3a592",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testLargePWithOneN",
+    "testSimpleCase",
+    "testSingleElement"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 42,
+   "WADR": 0.4565,
+   "WADR_giu_bat_dong": 0.4565,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 42,
+   "WADR_phu": 0.4565,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 7
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\After_r3.java",
+   "sha256": "d22e5f3c7d3677a5724d16460d35b0d8cf4c6a230ac49d3716ecb4b07195c7e3",
+   "bien_dich": "lỗi",
+   "loi": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\grade\\_test_after_T20\\src\\codenet\\After.java:33: error: cannot find symbol\n        assertEquals(1, Main.modPow(3, 0, 5));\n                        ^\n  symbol:   variable Main\n  location: class After\nC:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\grade\\_test_after_T20\\src\\codenet\\After.java:34: e",
+   "fail_type": "method"
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\After_r4.java",
+   "sha256": "cf5ee57b13bd123a56b55fc0e71134e9b08773352170efc504a026a293ee83dc",
+   "bien_dich": "lỗi",
+   "loi": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\grade\\_test_after_T30\\src\\codenet\\After.java:14: error: cannot find symbol\n        assertEquals(1L, Main.modPow(3L, 0L, 5L));\n                         ^\n  symbol:   variable Main\n  location: class After\nC:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV14-1\\grade\\_test_after_T30\\src\\codenet\\After.java:",
+   "fail_type": "method"
+  }
+ }
+}

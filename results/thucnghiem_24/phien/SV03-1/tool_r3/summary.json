@@ -1,0 +1,13 @@
+{
+ "problem_id": "p03633",
+ "put": "s203672004",
+ "tool": "jacoco",
+ "test": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV03-1\\After_r2.java",
+ "branch_covered": 2,
+ "branch_total": 6,
+ "branch_coverage": 0.3333,
+ "dong_con_nhanh_chua_phu": 2,
+ "dong_con_lenh_chua_chay": 15,
+ "junit_tests_successful": 1,
+ "junit_tests_failed": 8
+}

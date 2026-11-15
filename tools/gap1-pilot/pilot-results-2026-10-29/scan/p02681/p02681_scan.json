@@ -1,0 +1,248 @@
+{
+ "problem_id": "p02681",
+ "put_hien_tai": "s288793394",
+ "so_ung_vien_da_xet": 30,
+ "put_dat": null,
+ "so_dat_1_3": 0,
+ "nhat_ky": [
+  {
+   "submission": "s228096635",
+   "tham_chieu_nhanh": "3/4",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 1,
+   "mutant_song_sot_tham_chieu_diet_duoc": 0,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 1,
+   "nhanh": "3/4",
+   "mutant_song_sot": 1,
+   "mutant": "6/7",
+   "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s383702527",
+   "nhanh": "8/8",
+   "mutant_song_sot": 0,
+   "mutant": "7/7",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s419960849",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "3/3",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s254505427",
+   "nhanh": "3/4",
+   "mutant_song_sot": 0,
+   "mutant": "5/5",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s574876363",
+   "nhanh": "3/4",
+   "mutant_song_sot": 0,
+   "mutant": "4/4",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s566039515",
+   "tham_chieu_nhanh": "20/50",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 30,
+   "mutant_song_sot_tham_chieu_diet_duoc": 0,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 2,
+   "nhanh": "20/50",
+   "mutant_song_sot": 2,
+   "mutant": "26/56",
+   "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s846929688",
+   "tham_chieu_nhanh": "11/16",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 5,
+   "mutant_song_sot_tham_chieu_diet_duoc": 0,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 2,
+   "nhanh": "11/16",
+   "mutant_song_sot": 2,
+   "mutant": "16/20",
+   "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s451004067",
+   "nhanh": "2/2",
+   "mutant_song_sot": 1,
+   "mutant": "3/4",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s042578316",
+   "nhanh": "2/2",
+   "mutant_song_sot": 1,
+   "mutant": "3/4",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s268189329",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "6/6",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s802887394",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "3/3",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s897969102",
+   "nhanh": "2/2",
+   "mutant_song_sot": 1,
+   "mutant": "2/3",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s920965985",
+   "nhanh": "3/4",
+   "mutant_song_sot": 0,
+   "mutant": "5/5",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s838941514",
+   "ket_qua": "Judge.run lệch 6/17"
+  },
+  {
+   "submission": "s979167657",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "4/4",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s789835741",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "2/2",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s588105987",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "3/3",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s233594854",
+   "nhanh": "3/4",
+   "mutant_song_sot": 0,
+   "mutant": "5/5",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s371710967",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "3/3",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s405720981",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "4/4",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s478041538",
+   "nhanh": "2/2",
+   "mutant_song_sot": 0,
+   "mutant": "2/2",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s453530556",
+   "tham_chieu_nhanh": "3/4",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 1,
+   "mutant_song_sot_tham_chieu_diet_duoc": 0,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 1,
+   "nhanh": "3/4",
+   "mutant_song_sot": 1,
+   "mutant": "6/8",
+   "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s009764450",
+   "tham_chieu_nhanh": "16/56",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 40,
+   "mutant_song_sot_tham_chieu_diet_duoc": 0,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 6,
+   "nhanh": "16/56",
+   "mutant_song_sot": 8,
+   "mutant": "18/67",
+   "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s498798373",
+   "tham_chieu_nhanh": "3/4",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 1,
+   "mutant_song_sot_tham_chieu_diet_duoc": 0,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 1,
+   "nhanh": "3/4",
+   "mutant_song_sot": 1,
+   "mutant": "5/6",
+   "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s455794292",
+   "ket_qua": "Judge.run lệch 1/17"
+  },
+  {
+   "submission": "s675032091",
+   "nhanh": "10/14",
+   "mutant_song_sot": 0,
+   "mutant": "17/17",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s315669272",
+   "nhanh": "17/118",
+   "mutant_song_sot": 0,
+   "mutant": "28/154",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s637431245",
+   "nhanh": "4/8",
+   "mutant_song_sot": 0,
+   "mutant": "7/17",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s756507223",
+   "tham_chieu_nhanh": "14/46",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 32,
+   "mutant_song_sot_tham_chieu_diet_duoc": 0,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 7,
+   "nhanh": "14/46",
+   "mutant_song_sot": 9,
+   "mutant": "18/61",
+   "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+  },
+  {
+   "submission": "s226822752",
+   "nhanh": "4/4",
+   "mutant_song_sot": 0,
+   "mutant": "5/5",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  }
+ ]
+}

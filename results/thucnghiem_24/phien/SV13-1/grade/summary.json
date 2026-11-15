@@ -1,0 +1,284 @@
+{
+ "problem_id": "p03416",
+ "put": "s526219859",
+ "manifest_sha256": "6c243fcafcb48f1c55d89b84e7655759b21bf46545dc94d3bfd9a55073451e84",
+ "WA_mau_so": 81,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s414536052",
+  "s870534375",
+  "s640924046",
+  "s170179802"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV13-1\\Before.java",
+   "sha256": "6e459881e1cb1e056a5c822b681fcd904efa39a548ce9ed03c6b2f087918c06c",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "testFullRangeOfPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <90> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testRangeWithNoPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <44>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSinglePalindrome",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV13-1\\After_r2.java",
+   "sha256": "47ff67a386b2a836d621cabd13a5b0015f9d7f4edd22e9f9060367f91c33463b",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "testEdgeCaseB",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testFullRangeOfPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <90> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLargeRange",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <8915> but was: <100>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testRangeWithNoPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <44>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleDigitPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <3> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCaseA",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEdgeCaseC",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testSinglePalindrome",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testSmallNumbers",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 4,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV13-1\\After_r3.java",
+   "sha256": "b4f45d95b20a86fa79a61a222232c14264824a15a2ea7989464700f4b9cc39a3",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 11,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "testEdgeCaseB",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testFullRangeOfPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <90> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLargeRange",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <8915> but was: <100>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLeadingZeroes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testRangeWithNoPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <44>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleDigitPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <3> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCaseA",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEdgeCaseC",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testRangeIncludingBAsPalindrome",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testSinglePalindrome",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testSmallNumbers",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 5,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 11,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV13-1\\After_r4.java",
+   "sha256": "5323a109a9eb370fac35231af9fe962a344d4f455a7d2673e24809f47e4ae94d",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 0,
+   "bien_dich": "ok",
+   "so_test": 13,
+   "test_hop_le": 0,
+   "ten_test_hop_le": [],
+   "test_khong_hop_le": [
+    {
+     "test": "testEdgeCaseB",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testFullRangeOfPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <90> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLargeRange",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <8915> but was: <100>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testLeadingZeroes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <1> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testRangeWithNoPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <44>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testSingleDigitPalindromes",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <3> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testEdgeCaseA",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEdgeCaseC",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testEdgeCaseD",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testOddNumberOfDigits",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testRangeIncludingBAsPalindrome",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testSinglePalindrome",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    },
+    {
+     "test": "testSmallNumbers",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 0,
+   "dau_vao_ngoai_rang_buoc": 7,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 13,
+   "WA_phat_hien_assertion": 0,
+   "WADR": 0.0,
+   "WADR_giu_bat_dong": 0.0,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 0,
+   "WADR_phu": 0.0,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 0
+  }
+ }
+}

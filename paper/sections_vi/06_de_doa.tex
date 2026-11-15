@@ -1,0 +1,22 @@
+\section{Đe doạ tính hợp lệ}
+\label{sec:threats}
+
+\textbf{Tính hợp lệ bên trong.}
+Người tham gia có thể mang kỹ năng từ phiên 1 sang phiên 2 hoặc mệt ở phiên 2.
+Lịch crossover cân bằng thứ tự công cụ và mỗi phiên dùng một bài khác nhau; hồi quy crossover ước lượng hiệu ứng thứ tự 0,004 ($p = 0,934$), nhưng với 22 người phép kiểm này có power thấp nên chưa loại trừ được hiệu ứng mang sang.
+Đe doạ thứ hai: PITest không cho báo cáo ở 58/96 lần chạy vì có test fail trên chương trình; vì vậy phép so sánh là giữa báo cáo JaCoCo và PITest như người dùng thực sự gặp với cấu hình mặc định, không phải giữa hai báo cáo đầy đủ.
+Nhóm báo tỉ lệ lần chạy có báo cáo theo từng điều kiện và một phân tích thăm dò (exploratory) chỉ gồm người có ít nhất một báo cáo PITest.
+
+\textbf{Tính hợp lệ bên ngoài.}
+Mọi bài là chương trình Java nhỏ từ IBM CodeNet~\cite{puri2021}, được chọn sao cho cả hai công cụ đều báo các mục mà tập đầu vào tham chiếu phủ/diệt được; kết quả có thể khác với chương trình lớn hơn, ngôn ngữ khác hoặc loại bài khác.
+
+\textbf{Tính hợp lệ của cấu trúc đo.}
+WADR đếm số bài WA bị phát hiện, không phải số lỗi gốc khác nhau: nhiều bài nộp có thể chung một lỗi.
+Oracle là output chung của ít nhất 90\% lời giải Accepted, cùng bốn lời giải Accepted độc lập cho mỗi bài, vẫn có thể sai trên một số đầu vào hợp lệ hiếm; ba test bất đồng với các lời giải đối chiếu, và WADR không đổi khi giữ hay loại chúng.
+Ba test này không được duyệt tay, vì kết quả không phụ thuộc vào chúng.
+Test ngoài ràng buộc của đề đã bị validator loại; vẫn có thể còn đầu vào mà validator chấp nhận nhưng đề không định cho phép.
+
+\textbf{Tính hợp lệ của kết luận.}
+Với $N = 22$ người trong phân tích chính, mô phỏng trong protocol cho MDE từ 0,07 đến 0,23 tuỳ độ biến thiên giả định, nên một chênh lệch thật bằng $\delta = 0,10$ dễ bị bỏ sót.
+Vì vậy nhóm báo ước lượng kèm khoảng tin cậy 95\% ($[-0,118; 0,074]$) và không kết luận hai loại phản hồi tương đương; không có kiểm định tương đương nào được đăng ký trước.
+Các người tham gia dùng chung bài nên các hiệu ghép cặp không hoàn toàn độc lập; mô hình hỗn hợp có bài là hiệu ứng cố định cho cùng kết luận.

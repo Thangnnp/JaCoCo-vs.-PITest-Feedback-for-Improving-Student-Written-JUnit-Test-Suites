@@ -1,0 +1,98 @@
+package codenet;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class After {
+
+    @Test
+    public void testSample1() {
+        String input = "5 3\n-30 -10 10 20 50";
+        assertEquals("40", Judge.run(input));
+    }
+
+    @Test
+    public void testSample2() {
+        String input = "3 2\n10 20 30";
+        assertEquals("20", Judge.run(input));
+    }
+
+    @Test
+    public void testSample3() {
+        String input = "1 1\n0";
+        assertEquals("0", Judge.run(input));
+    }
+
+    @Test
+    public void testMiEqualsK() {
+        String input = "10 5\n-9 -7 -4 -3 1 2 3 4";
+        assertEquals("3", Judge.run(input));
+    }
+
+    @Test
+    public void testOnlyOneCandleAtZero() {
+        String input = "1 1\n0";
+        assertEquals("0", Judge.run(input));
+    }
+
+    @Test
+    public void testKEqualsN() {
+        String input = "10 10\n-9 -7 -4 -3 1 2 3 4";
+        assertEquals("0", Judge.run(input));
+    }
+
+    @Test
+    public void testNoCandlesToLight() {
+        String input = "5 0\n-30 -10 10 20 50";
+        assertEquals("0", Judge.run(input));
+    }
+
+    @Test
+    public void testAllCandlesPositive() {
+        String input = "10 10\n1 2 3 4 5 6 7 8 9 10";
+        assertEquals("45", Judge.run(input));
+    }
+
+    @Test
+    public void testAllCandlesNegative() {
+        String input = "10 10\n-1 -2 -3 -4 -5 -6 -7 -8 -9 -10";
+        assertEquals("45", Judge.run(input));
+    }
+
+    @Test
+    public void testKIsZeroAndNoCandlesAtZero() {
+        String input = "10 0\n1 2 3 4 5 6 7 8 9 10";
+        assertEquals("0", Judge.run(input));
+    }
+
+    @Test
+    public void testOneCandleAtNegativeInfinity() {
+        String input = "10 1\n-999 -700 -400 -300 -100 0 1 2 3 4";
+        assertEquals("-999", Judge.run(input));
+    }
+
+    @Test
+    public void testOneCandleAtPositiveInfinity() {
+        String input = "10 1\n-9 -7 -4 -3 100 200 300 400 500 600";
+        assertEquals("600", Judge.run(input));
+    }
+
+    @Test
+    public void testKIsZeroAndAllCandlesAtZero() {
+        String input = "10 0\n0 0 0 0 0 0 0 0 0 0";
+        assertEquals("0", Judge.run(input));
+    }
+
+    @Test
+    public void testOneCandleLeftOfInfinity() {
+        String input = "10 1\n-1000 -900 -700 -400 -300 -100 0 1 2 3";
+        assertEquals("-999", Judge.run(input));
+    }
+
+    @Test
+    public void testOneCandleRightOfInfinity() {
+        String input = "10 1\n-9 -7 -4 -3 100 200 300 400 500 600";
+        assertEquals("599", Judge.run(input));
+    }
+}

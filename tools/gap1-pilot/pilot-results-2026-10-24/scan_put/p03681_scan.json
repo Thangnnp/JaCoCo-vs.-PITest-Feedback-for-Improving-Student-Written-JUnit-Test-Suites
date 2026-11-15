@@ -1,0 +1,52 @@
+{
+ "problem_id": "p03681",
+ "put_hien_tai": "s538762146",
+ "so_ung_vien_da_xet": 6,
+ "put_dat": "s735700476",
+ "nhat_ky": [
+  {
+   "submission": "s103589104",
+   "ket_qua": "Judge.run lệch 1/18"
+  },
+  {
+   "submission": "s578378891",
+   "nhanh": "6/6",
+   "mutant_song_sot": 0,
+   "mutant": "15/15",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s664373374",
+   "nhanh": "7/8",
+   "mutant_song_sot": 0,
+   "mutant": "None/None",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s102603945",
+   "nhanh": "10/14",
+   "mutant_song_sot": 0,
+   "mutant": "23/27",
+   "ket_qua": "phản hồi rỗng ở PITest"
+  },
+  {
+   "submission": "s668143058",
+   "nhanh": "6/6",
+   "mutant_song_sot": 0,
+   "mutant": "17/17",
+   "ket_qua": "phản hồi rỗng ở JaCoCo"
+  },
+  {
+   "submission": "s735700476",
+   "tham_chieu_nhanh": "8/8",
+   "nhanh_bao_cao_dat_duoc": 1,
+   "nhanh_bao_cao_khong_dat_duoc": 0,
+   "mutant_song_sot_diet_duoc": 1,
+   "mutant_song_sot_khong_diet_duoc": 1,
+   "nhanh": "7/8",
+   "mutant_song_sot": 2,
+   "mutant": "16/18",
+   "ket_qua": "ĐẠT"
+  }
+ ]
+}

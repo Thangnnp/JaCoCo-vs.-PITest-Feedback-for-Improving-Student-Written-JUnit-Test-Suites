@@ -1,0 +1,38 @@
+package codenet;
+
+import static org.junit.jupiter.api.Assertions.*;
+
+import org.junit.jupiter.api.Test;
+
+public class After {
+    @Test
+    public void testCase1() {
+        String input = "3 24";
+        assertEquals("2", Judge.run(input));
+    }
+
+    @Test
+    public void testCase2() {
+        String input = "5 1";
+        assertEquals("1", Judge.run(input));
+    }
+
+    @Test
+    public void testCase3() {
+        String input = "1 111";
+        assertEquals("111", Judge.run(input));
+    }
+
+    @Test
+    public void testCase4() {
+        String input = "4 972439611840";
+        assertEquals("206", Judge.run(input));
+    }
+
+    @Test
+    public void testCase5() {
+        String input = "10 1000000000";
+        // Không nên bỏ qua các trường hợp này. Khi n >= N_MAX, thuật toán sẽ không chạy được và output là số NaN (đã bị chặn trong bài)
+        assertEquals("1", Judge.run(input));
+    }
+}

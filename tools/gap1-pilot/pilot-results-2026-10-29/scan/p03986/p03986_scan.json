@@ -1,0 +1,25 @@
+{
+ "problem_id": "p03986",
+ "put_hien_tai": "s759139303",
+ "so_ung_vien_da_xet": 2,
+ "put_dat": "s263632960",
+ "so_dat_1_3": 0,
+ "nhat_ky": [
+  {
+   "submission": "s684749597",
+   "ket_qua": "Judge.run lệch 1/17"
+  },
+  {
+   "submission": "s263632960",
+   "tham_chieu_nhanh": "12/12",
+   "nhanh_bao_cao_tham_chieu_phu_duoc": 2,
+   "nhanh_bao_cao_chua_phu_bang_tham_chieu": 0,
+   "mutant_song_sot_tham_chieu_diet_duoc": 3,
+   "mutant_song_sot_chua_diet_bang_tham_chieu": 2,
+   "nhanh": "10/12",
+   "mutant_song_sot": 8,
+   "mutant": "10/18",
+   "ket_qua": "ĐẠT"
+  }
+ ]
+}

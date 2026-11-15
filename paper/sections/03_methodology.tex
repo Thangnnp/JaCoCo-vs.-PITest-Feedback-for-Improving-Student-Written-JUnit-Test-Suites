@@ -1,0 +1,22 @@
+\section{Method}
+\label{sec:methods}
+
+The study had 24 participants at three experience levels (4 fresher, 15 junior, 5 semi-senior), assigned to the schedule at random with seed 2026.
+
+\subsection{Design}
+The study used a crossover design. Each participant completed two sessions on two different problems, one with JaCoCo (J) and one with PITest (P). The schedule balanced tool order: half did J first and half did P first, and each combination of problem, session and tool appeared exactly once. No one worked on the same problem with both tools. The planned sample was 48, with a minimum of 24. Because there were only 24 participants, the study is reported as exploratory.
+
+\subsection{Data}
+Problems were taken from IBM CodeNet~\cite{puri2021}. A problem was eligible if it had Sample Input/Output, a unique correct answer, at least 30 Java Accepted and 30 Java Wrong Answer submissions, and a median Accepted code size of at most 2,000 bytes (722 of 4,053 problems qualified). Problems were drawn in random order (seed 2026) until 12 were selected, skipping problems where the Sample tests already detected every WA submission. Each problem has one program under test (PUT), an Accepted submission chosen by public criteria so that both reports still contain at least one item that the reference inputs can cover or kill. In total, 1,639 WA submissions were used for evaluation. The WA list, the reference inputs and four reference Accepted solutions per problem were locked with SHA-256 before the runs.
+
+\subsection{Session procedure}
+Participants read the problem statement and the program, then wrote an initial JUnit suite (Before) in 15 minutes without feedback. They then ran the tool of their assigned condition, read the report and added tests. Each session had four tool runs; the extended suite (After) was saved at 15, 20 and 30 minutes. The main analysis uses $T = 20$ minutes, the value kept after the mini-pilot, and tool running time counts towards $T$. JaCoCo 0.8.12 and PITest 1.16.1 ran with their default configurations, and no report items were filtered.
+
+\subsection{Grading}
+The grader compiles the test suite, runs it twice on the PUT and runs each test on its own. A test is valid if it passes both times, passes when run alone and uses only inputs within the problem constraints. Valid tests are also run on the four reference Accepted solutions; a test that fails on at least one of them is a disagreeing test. A WA submission is detected when at least one valid test fails on an assertion in both runs. The grader was verified beforehand on a constructed problem with known outcomes (80 of 80 checks matched).
+
+\subsection{Measures}
+WADR is the proportion of WA submissions in the locked list that the test suite detects. $\Delta\mathrm{WADR} = \mathrm{WADR(After)} - \mathrm{WADR(Before)}$. For each participant, $d = \Delta\mathrm{WADR}(P) - \Delta\mathrm{WADR}(J)$; $d > 0$ favours PITest. Coverage and mutation score are not the primary measure because they are the information the two tools give participants.
+
+\subsection{Analysis}
+$H_0$: $\theta = 0$ and $H_1$: $\theta \neq 0$, where $\theta$ is the pseudo-median of $d$. The main test is the two-sided paired Wilcoxon signed-rank test, with zero differences handled by Pratt's method~\cite{pratt1959}. $\theta$ is estimated with the Hodges--Lehmann estimator~\cite{hodges1963} with a 95\% confidence interval; the effect size is the rank-biserial $r$. The practical significance threshold $\delta = 0.10$ was fixed in advance. A difference is concluded when $p < 0.05$ and $|\hat{\theta}| \geq \delta$. Sessions whose Before suite did not compile were kept with $\mathrm{WADR(Before)} = 0$; sessions whose After suite did not compile were excluded from the main analysis and counted as $\mathrm{WADR(After)} = 0$ in a sensitivity analysis. Supplementary analyses covered $T = 15$ and 30 minutes, a mixed model with condition, session order and problem as fixed effects and participant as a random effect, a $2\times2$ crossover regression, $\delta = 0.05$ and 0.15, and subgroups by initial WADR. These rules were recorded before the results were seen.

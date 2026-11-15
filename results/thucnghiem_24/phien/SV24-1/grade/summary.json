@@ -1,0 +1,61 @@
+{
+ "problem_id": "p03253",
+ "put": "s490019423",
+ "manifest_sha256": "bdb29d663ecb8da614c4d93003e72feabd4e575d27ab733de077cd3656063de4",
+ "WA_mau_so": 116,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s435380472",
+  "s133913586",
+  "s784712912",
+  "s078800535"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\Before.java",
+   "sha256": "f03e61149698fe1bfd483c833b800ff3469caf136346d2efe854d79a584252ce",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 2,
+   "bien_dich": "ok",
+   "so_test": 2,
+   "test_hop_le": 2,
+   "ten_test_hop_le": [
+    "testN1M2",
+    "testN3M12"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 2,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 2,
+   "WA_phat_hien_assertion": 22,
+   "WADR": 0.1897,
+   "WADR_giu_bat_dong": 0.1897,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 22,
+   "WADR_phu": 0.1897,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 3
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\After_r2.java",
+   "sha256": "ed5022ed5e33302dba4da31e1c2d2134bef29ad134b2dcdf933ef5cb7c0dccfc",
+   "bien_dich": "lỗi",
+   "loi": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\grade\\_test_after_T15\\src\\codenet\\After.java:20: error: duplicate class: codenet.After\nclass After {\n^\nC:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\grade\\_test_after_T15\\src\\codenet\\After.java:9: error: cannot find symbol\n        InputStream inputStream = System.in;\n        ^\n  symbol:   clas",
+   "fail_type": "method"
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\After_r3.java",
+   "sha256": "b0b2292eca6149cf58b84448ac90c922033b8ed25e3096940862c2bc913ae14a",
+   "bien_dich": "lỗi",
+   "loi": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\grade\\_test_after_T20\\src\\codenet\\After.java:20: error: duplicate class: codenet.After\nclass After {\n^\nC:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\grade\\_test_after_T20\\src\\codenet\\After.java:9: error: cannot find symbol\n        InputStream inputStream = System.in;\n        ^\n  symbol:   clas",
+   "fail_type": "method"
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\After_r4.java",
+   "sha256": "3de0137b0392c77e01eee15220918eddf96ea4c874ec1bba5a16b777a67e4412",
+   "bien_dich": "lỗi",
+   "loi": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\grade\\_test_after_T30\\src\\codenet\\After.java:20: error: duplicate class: codenet.After\nclass After {\n^\nC:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV24-1\\grade\\_test_after_T30\\src\\codenet\\After.java:9: error: cannot find symbol\n        InputStream inputStream = System.in;\n        ^\n  symbol:   clas",
+   "fail_type": "method"
+  }
+ }
+}

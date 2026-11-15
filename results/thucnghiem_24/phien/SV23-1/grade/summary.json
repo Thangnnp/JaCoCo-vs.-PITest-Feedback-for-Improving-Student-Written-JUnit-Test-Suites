@@ -1,0 +1,153 @@
+{
+ "problem_id": "p03196",
+ "put": "s773186766",
+ "manifest_sha256": "ba67d2419027f411a85a6ec0113c88aad288189b1caac3cc0640cc7aac061374",
+ "WA_mau_so": 92,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s480125361",
+  "s505285685",
+  "s639527139",
+  "s161515879"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-1\\Before.java",
+   "sha256": "03d542f00292c7afe35fa996423569ad4f284e39a08746a2017813acd587041a",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testBoundaryN1",
+    "testLargeN",
+    "testSample1"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 14,
+   "WADR": 0.1522,
+   "WADR_giu_bat_dong": 0.1522,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 14,
+   "WADR_phu": 0.1522,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 6
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-1\\After_r2.java",
+   "sha256": "9c08594632334deffb35023251e8e9fd6a66d5fa170ec5d823dd52897e1ee0af",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 9,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 9,
+   "ten_test_hop_le": [
+    "testBoundaryN1",
+    "testExponentZero",
+    "testLargeN",
+    "testPerfectPower",
+    "testPrimeP",
+    "testSample1",
+    "testSample2",
+    "testSample4",
+    "testSquareNumber"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 10,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 10,
+   "WA_phat_hien_assertion": 83,
+   "WADR": 0.9022,
+   "WADR_giu_bat_dong": 0.9022,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 83,
+   "WADR_phu": 0.9022,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 13
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-1\\After_r3.java",
+   "sha256": "e5a899af0cdb3c7216b9c1d5a0e8669b30753b499287a8656124d025ef67bc10",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 11,
+   "bien_dich": "ok",
+   "so_test": 12,
+   "test_hop_le": 11,
+   "ten_test_hop_le": [
+    "testBoundaryN1",
+    "testExponentZero",
+    "testLargeN",
+    "testMaxNMaxP",
+    "testPIsOne",
+    "testPerfectPower",
+    "testPrimeP",
+    "testSample1",
+    "testSample2",
+    "testSample4",
+    "testSquareNumber"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testLargePWithSmallN",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 12,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 14,
+   "WA_phat_hien_assertion": 83,
+   "WADR": 0.9022,
+   "WADR_giu_bat_dong": 0.9022,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 83,
+   "WADR_phu": 0.9022,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 13
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV23-1\\After_r4.java",
+   "sha256": "6b41ff0a27e209c5d7bb4a5ba94b31f9b81c0ad5f6fc5a32391f879b4c4e2e57",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 14,
+   "bien_dich": "ok",
+   "so_test": 15,
+   "test_hop_le": 14,
+   "ten_test_hop_le": [
+    "testBoundaryN1",
+    "testExponentExactlyN",
+    "testExponentZero",
+    "testLargeN",
+    "testMaxNMaxP",
+    "testPAlmostMaxPrimeSquare",
+    "testPIsOne",
+    "testPWithManySmallFactors",
+    "testPerfectPower",
+    "testPrimeP",
+    "testSample1",
+    "testSample2",
+    "testSample4",
+    "testSquareNumber"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testLargePWithSmallN",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 15,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 17,
+   "WA_phat_hien_assertion": 83,
+   "WADR": 0.9022,
+   "WADR_giu_bat_dong": 0.9022,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 83,
+   "WADR_phu": 0.9022,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 13
+  }
+ }
+}

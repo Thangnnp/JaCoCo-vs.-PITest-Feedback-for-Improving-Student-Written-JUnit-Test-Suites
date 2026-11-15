@@ -1,0 +1,24 @@
+/-\
+10:26:16?PM PIT >> INFO : Verbose logging is disabled. If you encounter a problem, please enable it before reporting an issue.
+10:26:17?PM PIT >> INFO : Created 3 mutation test units in pre scan
+10:26:17?PM PIT >> INFO : Sending 1 test classes to minion
+10:26:17?PM PIT >> INFO : Sent tests to minion
+10:26:18?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test1()]] did not pass without mutation.
+10:26:18?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test2()]] did not pass without mutation.
+10:26:18?PM PIT >> SEVERE : Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test3()]] did not pass without mutation.
+10:26:18?PM PIT >> INFO : Calculated coverage in 1 seconds.
+10:26:18?PM PIT >> SEVERE : Tests failing without mutation: 
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test1()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test2()]]
+Description [testClass=codenet.After, name=[engine:junit-jupiter]/[class:codenet.After]/[method:test3()]]
+Exception in thread "main" org.pitest.help.PitHelpError: 3 tests did not pass without mutation when calculating line coverage. Mutation testing requires a green suite.
+See https://pitest.org for more details.
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.verifyBuildSuitableForMutationTesting(DefaultCoverageGenerator.java:127)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:109)
+	at org.pitest.coverage.execute.DefaultCoverageGenerator.calculateCoverage(DefaultCoverageGenerator.java:53)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runAnalysis(MutationCoverage.java:150)
+	at org.pitest.mutationtest.tooling.MutationCoverage.runReport(MutationCoverage.java:137)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:137)
+	at org.pitest.mutationtest.tooling.EntryPoint.execute(EntryPoint.java:64)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.runReport(MutationCoverageReport.java:98)
+	at org.pitest.mutationtest.commandline.MutationCoverageReport.main(MutationCoverageReport.java:45)

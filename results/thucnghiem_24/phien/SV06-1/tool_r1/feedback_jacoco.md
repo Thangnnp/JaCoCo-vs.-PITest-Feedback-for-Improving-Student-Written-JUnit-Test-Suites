@@ -1,0 +1,7 @@
+# Phản hồi JaCoCo: nhánh chưa được phủ (p03681)
+
+Branch coverage: **7/8** (87.5%)
+
+| Dòng | Nhánh chưa phủ / tổng nhánh | Mã nguồn |
+| ---: | :-: | :--- |
+| 18 | 1 / 4 | `} else if(n-1 == m\|\|n+1 == m){` |

@@ -1,0 +1,31 @@
+{
+ "problems": {
+  "p02681": {
+   "put": "s228096635",
+   "WA_danh_gia": 221,
+   "manifest_sha256": "98d4721d5407cbef611efab104208c5cf51c9e0ffe0682b675a376d0b7dcf0b4",
+   "reference_inputs": 17,
+   "reference_inputs_sha256": "0d937f30d2de006282491f909d16f96eaf99d27f13b1c47223fa23c59d502b3c",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 48,
+   "put_wa_pilot": "s288793394",
+   "put_quet": {
+    "submission": "s228096635",
+    "tham_chieu_nhanh": "3/4",
+    "nhanh_bao_cao_tham_chieu_phu_duoc": 0,
+    "nhanh_bao_cao_chua_phu_bang_tham_chieu": 1,
+    "mutant_song_sot_tham_chieu_diet_duoc": 0,
+    "mutant_song_sot_chua_diet_bang_tham_chieu": 1,
+    "nhanh": "3/4",
+    "mutant_song_sot": 1,
+    "mutant": "6/7",
+    "ket_qua": "mọi nhánh JaCoCo báo đều chưa phủ được bằng tập tham chiếu"
+   },
+   "thu_tu_chon": 29,
+   "vai_tro": "luyen_tap",
+   "ghi_chu": "Bài 29 không có PUT đạt đủ 5 điều kiện trong 30 ứng viên; PUT luyện tập là ứng viên đầu tiên đạt điều kiện 1–3.",
+   "ac_check": "ac_check/p02681.json",
+   "ac_check_sha256": "c99f3e8ddba9edd57cd67974d7ff4172b9241b39f0d8c6363461dc6376fb3d2b"
+  }
+ },
+ "ngay_khoa": "2026-10-29"
+}

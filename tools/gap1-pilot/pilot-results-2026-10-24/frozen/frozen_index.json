@@ -1,0 +1,108 @@
+{
+ "problems": {
+  "p02263": {
+   "put": "s026917291",
+   "WA_danh_gia": 92,
+   "manifest_sha256": "1316187b9bbfb78541005c2a4aacae5375adaa5b621ad5ee570a6ea24adc1657",
+   "reference_inputs": 15,
+   "reference_inputs_sha256": "a44a8226640c5bd68b194c597c73357abf964446136371028424c293a8b1434b",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 50
+  },
+  "p02917": {
+   "put": "s393222326",
+   "WA_danh_gia": 106,
+   "manifest_sha256": "2fb2cafde8ed3a5557e52315b27bbdae9448b6dae7f8e5927d3bcad49d8ebb59",
+   "reference_inputs": 15,
+   "reference_inputs_sha256": "f14ea57bb5529ead8b5f10440214c944dad2f9b351313b1302b25eaa8b816fc3",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 54
+  },
+  "p03378": {
+   "put": "s449463532",
+   "WA_danh_gia": 48,
+   "manifest_sha256": "8a40bd0c594de564c206b17c6fcb28d85251bd970c5a51c0266f72b1801668a6",
+   "reference_inputs": 8,
+   "reference_inputs_sha256": "c8fabb66aa5d5ba8d8d780a92588813835a0f51c80b0910dad4d1a13ed2ab3ac",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 25
+  },
+  "p03416": {
+   "put": "s807773336",
+   "WA_danh_gia": 81,
+   "manifest_sha256": "6c243fcafcb48f1c55d89b84e7655759b21bf46545dc94d3bfd9a55073451e84",
+   "reference_inputs": 16,
+   "reference_inputs_sha256": "8f43952d7f233dd80ba5d2558917f81be6bd5449631693ccbf5e6c287ebf1e51",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 28
+  },
+  "p03813": {
+   "put": "s925387741",
+   "WA_danh_gia": 33,
+   "manifest_sha256": "a04e4c7ad3810364a448b2f3fa80ccf6771b7a2d0240f2fff49a69009d5dbdeb",
+   "reference_inputs": 15,
+   "reference_inputs_sha256": "65ac572dadeaa9091e2975cfe84b5add8ebf1581796d071520cbc29ad01b79d2",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 10
+  },
+  "p01137": {
+   "put": "s864796692",
+   "WA_danh_gia": 29,
+   "manifest_sha256": "48d8c3d67739a2ea7ce5a308af3acf835e9493c9a81c0d98941526d2387265c9",
+   "reference_inputs": 14,
+   "reference_inputs_sha256": "bf910c957b6f4270bd195ec27f0ccc5b6b0800769b05789b75d80b6afa88529f",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 18
+  },
+  "p02699": {
+   "put": "s547172807",
+   "WA_danh_gia": 108,
+   "manifest_sha256": "6044b1070c95b23abd7fe8ba0934013d11afe23b42b08457de4ed6c155bc353d",
+   "reference_inputs": 17,
+   "reference_inputs_sha256": "a079b0e653c1932405e8afe50801a9be77f62a53e660c14f0870d3567b4f773f",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 27
+  },
+  "p03681": {
+   "put": "s538762146",
+   "WA_danh_gia": 128,
+   "manifest_sha256": "52a76c86f93fd743b7b0df9ef00320792f794045e048ac28c5a6efd5b68626a1",
+   "reference_inputs": 18,
+   "reference_inputs_sha256": "abacb0d9eb1899c589a694d1ace9b9603d8a9c937a35f4a059616e9459cb7770",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 65
+  },
+  "p03731": {
+   "put": "s360825321",
+   "WA_danh_gia": 48,
+   "manifest_sha256": "8cd135d5ce85222f7c908723efc3a4760d8d69ff6e83c8ab0ec46181a2d0593f",
+   "reference_inputs": 16,
+   "reference_inputs_sha256": "d88f44c077463857dee362c84f1a03c03d60db3c4ac5a3664a71e6ee453b9c8e",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 28
+  },
+  "p03546": {
+   "put": "s575130508",
+   "WA_danh_gia": 89,
+   "manifest_sha256": "931e8d7be107a837f5053cf532a707133dc135180bc3ec6c17af0e95b28f1aee",
+   "reference_inputs": 14,
+   "reference_inputs_sha256": "72f419f44a12bb45790f790af723e1cda678f7a4f83de23f487305e319413b92",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 25
+  },
+  "p03196": {
+   "put": "s703076366",
+   "WA_danh_gia": 92,
+   "manifest_sha256": "ba67d2419027f411a85a6ec0113c88aad288189b1caac3cc0640cc7aac061374",
+   "reference_inputs": 17,
+   "reference_inputs_sha256": "5b839ac9fd16a86413240cf41f92fc97b6f56ebeab89e5cf9a1ae77887cca962",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 34
+  },
+  "p03351": {
+   "put": "s006547737",
+   "WA_danh_gia": 221,
+   "manifest_sha256": "91f85958232ec18a7bf5829d1d76029b3b72293ca556ec0e0b2a373c56aaaf65",
+   "reference_inputs": 18,
+   "reference_inputs_sha256": "6dc7710da69244ec01e4f8b1f67bab26b5b557a67a15b7af27b4ea2d782d2d7d",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 73
+  },
+  "p03633": {
+   "put": "s147374154",
+   "WA_danh_gia": 143,
+   "manifest_sha256": "18e1a0e516da9cd33b6df0bb061dedf091ed47ad3a360f6a42440e83f895eed7",
+   "reference_inputs": 13,
+   "reference_inputs_sha256": "33cf448a188a72ed71b146215668b0bfb0366c44a248c11cc8b488da581d2b4f",
+   "nhom_hanh_vi_tren_tap_tham_chieu": 62
+  }
+ }
+}

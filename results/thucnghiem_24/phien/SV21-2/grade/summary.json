@@ -1,0 +1,242 @@
+{
+ "problem_id": "p03274",
+ "put": "s722595737",
+ "manifest_sha256": "83b8dca67b7bd61e6305418e8f143e7e90335fdef0bf8676bab340e7097e97e5",
+ "WA_mau_so": 321,
+ "junit_api": "lib/junit-platform-console-standalone-1.10.2.jar",
+ "timeout_giay_moi_test": 4.0,
+ "ac_doi_chieu": [
+  "s196998698",
+  "s328262622",
+  "s785229152",
+  "s308106834"
+ ],
+ "bo_test": {
+  "before": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-2\\Before.java",
+   "sha256": "35845401f7c3775d17114678dd2b4da98164f5bdd692837bcd482d9642e4fe53",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 3,
+   "bien_dich": "ok",
+   "so_test": 3,
+   "test_hop_le": 3,
+   "ten_test_hop_le": [
+    "testSample1",
+    "testSample2",
+    "testSample3"
+   ],
+   "test_khong_hop_le": [],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 3,
+   "WA_phat_hien_assertion": 65,
+   "WADR": 0.2025,
+   "WADR_giu_bat_dong": 0.2025,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 65,
+   "WADR_phu": 0.2025,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 15
+  },
+  "after_T15": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-2\\After_r2.java",
+   "sha256": "1b4d534820582a28dc08e9a578876b3925de91a7bcd2fb61d67ad95337b37ccc",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 4,
+   "bien_dich": "ok",
+   "so_test": 9,
+   "test_hop_le": 4,
+   "ten_test_hop_le": [
+    "testOnlyOneCandleAtZero",
+    "testSample1",
+    "testSample2",
+    "testSample3"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testAllCandlesNegative",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <45> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testAllCandlesPositive",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <45> but was: <10>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testKEqualsN",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testMiEqualsK",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNoCandlesToLight",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-10>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 9,
+   "WA_phat_hien_assertion": 65,
+   "WADR": 0.2025,
+   "WADR_giu_bat_dong": 0.2025,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 65,
+   "WADR_phu": 0.2025,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 15
+  },
+  "after_T20": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-2\\After_r3.java",
+   "sha256": "3b292a81a6723baf4719b9585e7de993bd420533d7b80f2fa69cdb2772f08985",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 4,
+   "bien_dich": "ok",
+   "so_test": 12,
+   "test_hop_le": 4,
+   "ten_test_hop_le": [
+    "testOnlyOneCandleAtZero",
+    "testSample1",
+    "testSample2",
+    "testSample3"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testAllCandlesNegative",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <45> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testAllCandlesPositive",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <45> but was: <10>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testKEqualsN",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testKIsZeroAndNoCandlesAtZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testMiEqualsK",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNoCandlesToLight",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-10>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneCandleAtNegativeInfinity",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-999> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneCandleAtPositiveInfinity",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <600> but was: <3>",
+     "fail_type": "method"
+    }
+   ],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 0,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 12,
+   "WA_phat_hien_assertion": 65,
+   "WADR": 0.2025,
+   "WADR_giu_bat_dong": 0.2025,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 65,
+   "WADR_phu": 0.2025,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 15
+  },
+  "after_T30": {
+   "file": "C:\\Users\\Thang\\Desktop\\TAILIEUHOCTAP\\SWT\\GOI_BAN_GIAO_SWT301_nhom3_2026-11-01\\05_minipilot\\results_tn24\\pilot_sessions\\SV21-2\\After_r4.java",
+   "sha256": "5ce12f487d66155d8d08b27cc9935b64e8035b423815c7a159587d294e915b5a",
+   "test_bat_dong_AC": [],
+   "test_hop_le_khi_giu_bat_dong": 4,
+   "bien_dich": "ok",
+   "so_test": 15,
+   "test_hop_le": 4,
+   "ten_test_hop_le": [
+    "testOnlyOneCandleAtZero",
+    "testSample1",
+    "testSample2",
+    "testSample3"
+   ],
+   "test_khong_hop_le": [
+    {
+     "test": "testAllCandlesNegative",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <45> but was: <1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testAllCandlesPositive",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <45> but was: <10>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testKEqualsN",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testKIsZeroAndNoCandlesAtZero",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-1>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testMiEqualsK",
+     "ly_do": "ERROR trên PUT: java.lang.RuntimeException: Main.main ném ngoại lệ: java.util.NoSuchElementException",
+     "fail_type": "method"
+    },
+    {
+     "test": "testNoCandlesToLight",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <0> but was: <-10>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneCandleAtNegativeInfinity",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-999> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneCandleAtPositiveInfinity",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <600> but was: <3>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneCandleLeftOfInfinity",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <-999> but was: <0>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testOneCandleRightOfInfinity",
+     "ly_do": "FAIL trên PUT: org.opentest4j.AssertionFailedError: expected: <599> but was: <3>",
+     "fail_type": "method"
+    },
+    {
+     "test": "testKIsZeroAndAllCandlesAtZero",
+     "ly_do": "dùng đầu vào ngoài ràng buộc của đề",
+     "fail_type": "parse"
+    }
+   ],
+   "dau_vao_doc_lap": 3,
+   "dau_vao_ngoai_rang_buoc": 1,
+   "loi_goi_Judge_run_trong_ma_nguon_sau_bo_chu_thich": 15,
+   "WA_phat_hien_assertion": 65,
+   "WADR": 0.2025,
+   "WADR_giu_bat_dong": 0.2025,
+   "WA_phat_hien_assertion_hoac_ngoai_le": 65,
+   "WADR_phu": 0.2025,
+   "WA_khong_on_dinh": 0,
+   "WA_co_TIMEOUT_hoac_EXIT": 15
+  }
+ }
+}
